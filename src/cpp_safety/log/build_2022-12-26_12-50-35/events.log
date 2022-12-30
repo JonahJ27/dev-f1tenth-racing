@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.001040] (cpp_safety) JobQueued: {'identifier': 'cpp_safety', 'dependencies': OrderedDict()}
+[0.001491] (cpp_safety) JobStarted: {'identifier': 'cpp_safety'}
+[0.038514] (cpp_safety) JobProgress: {'identifier': 'cpp_safety', 'progress': 'cmake'}
+[0.042611] (cpp_safety) JobProgress: {'identifier': 'cpp_safety', 'progress': 'build'}
+[0.046857] (cpp_safety) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety', '--', '-j4', '-l4'], 'cwd': '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jjaffe27'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jjaffe27'), ('OLDPWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1583'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2724'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jjaffe27'), ('JOURNAL_STREAM', '8:46224'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jjaffe27'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jjaffe27-XPS-13-9350:@/tmp/.ICE-unix/1798,unix/jjaffe27-XPS-13-9350:/tmp/.ICE-unix/1798'), ('INVOCATION_ID', 'f7908fb3accc4690b20bb038ff19332e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy:/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:109a3f84-eadb-42b8-a496-26cb69616579'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety:/opt/ros/foxy')]), 'shell': False}
+[0.099993] (-) TimerEvent: {}
+[0.153372] (cpp_safety) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target safety\x1b[0m\n'}
+[0.200627] (-) TimerEvent: {}
+[0.214966] (cpp_safety) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/safety.dir/src/aeb.cpp.o\x1b[0m\n'}
+[0.300746] (-) TimerEvent: {}
+[0.401156] (-) TimerEvent: {}
+[0.501562] (-) TimerEvent: {}
+[0.601980] (-) TimerEvent: {}
+[0.702317] (-) TimerEvent: {}
+[0.802718] (-) TimerEvent: {}
+[0.903123] (-) TimerEvent: {}
+[1.003556] (-) TimerEvent: {}
+[1.103939] (-) TimerEvent: {}
+[1.204388] (-) TimerEvent: {}
+[1.304849] (-) TimerEvent: {}
+[1.405255] (-) TimerEvent: {}
+[1.505711] (-) TimerEvent: {}
+[1.606237] (-) TimerEvent: {}
+[1.706617] (-) TimerEvent: {}
+[1.807046] (-) TimerEvent: {}
+[1.907501] (-) TimerEvent: {}
+[2.008116] (-) TimerEvent: {}
+[2.108580] (-) TimerEvent: {}
+[2.209105] (-) TimerEvent: {}
+[2.309763] (-) TimerEvent: {}
+[2.410182] (-) TimerEvent: {}
+[2.510607] (-) TimerEvent: {}
+[2.610935] (-) TimerEvent: {}
+[2.711285] (-) TimerEvent: {}
+[2.811675] (-) TimerEvent: {}
+[2.912124] (-) TimerEvent: {}
+[2.972769] (cpp_safety) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.973108] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.973265] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.973393] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.973516] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.973641] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.973767] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.973888] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.974017] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.974354] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.974512] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:1\x1b[m\x1b[K:\n'}
+[2.974653] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LaserScanAEB::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.974789] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:52:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kto_string(std::vector<float>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.974932] (cpp_safety) StderrLine: {'line': b'   52 | _logger(), to_string(distances\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.975055] (cpp_safety) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.975179] (cpp_safety) StderrLine: {'line': b'\n'}
+[2.975946] (cpp_safety) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.976281] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.976429] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.976584] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.976710] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[2.976832] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.976951] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[2.977070] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:1\x1b[m\x1b[K:\n'}
+[2.977188] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.977321] (cpp_safety) StderrLine: {'line': b' 6549 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(int __val)\n'}
+[2.977442] (cpp_safety) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.977560] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.977681] (cpp_safety) StderrLine: {'line': b' 6549 |   to_string(\x1b[01;36m\x1b[Kint __val\x1b[m\x1b[K)\n'}
+[2.978164] (cpp_safety) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.978320] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.978459] (cpp_safety) StderrLine: {'line': b' 6554 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned __val)\n'}
+[2.978588] (cpp_safety) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.978716] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.978847] (cpp_safety) StderrLine: {'line': b' 6554 |   to_string(\x1b[01;36m\x1b[Kunsigned __val\x1b[m\x1b[K)\n'}
+[2.978972] (cpp_safety) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.979096] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.979221] (cpp_safety) StderrLine: {'line': b' 6560 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long __val)\n'}
+[2.979367] (cpp_safety) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.979501] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.979623] (cpp_safety) StderrLine: {'line': b' 6560 |   to_string(\x1b[01;36m\x1b[Klong __val\x1b[m\x1b[K)\n'}
+[2.980122] (cpp_safety) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.980256] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.980381] (cpp_safety) StderrLine: {'line': b' 6565 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long __val)\n'}
+[2.980513] (cpp_safety) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.980658] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.980907] (cpp_safety) StderrLine: {'line': b' 6565 |   to_string(\x1b[01;36m\x1b[Kunsigned long __val\x1b[m\x1b[K)\n'}
+[2.981176] (cpp_safety) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.981748] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.982013] (cpp_safety) StderrLine: {'line': b' 6571 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long long __val)\n'}
+[2.982281] (cpp_safety) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.982622] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.982955] (cpp_safety) StderrLine: {'line': b' 6571 |   to_string(\x1b[01;36m\x1b[Klong long __val\x1b[m\x1b[K)\n'}
+[2.983592] (cpp_safety) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.983974] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.984338] (cpp_safety) StderrLine: {'line': b' 6577 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long long __val)\n'}
+[2.984688] (cpp_safety) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.985279] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.985677] (cpp_safety) StderrLine: {'line': b' 6577 |   to_string(\x1b[01;36m\x1b[Kunsigned long long __val\x1b[m\x1b[K)\n'}
+[2.986034] (cpp_safety) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.987047] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6583:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.987631] (cpp_safety) StderrLine: {'line': b' 6583 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(float __val)\n'}
+[2.987892] (cpp_safety) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.988100] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6583:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.988292] (cpp_safety) StderrLine: {'line': b' 6583 |   to_string(\x1b[01;36m\x1b[Kfloat __val\x1b[m\x1b[K)\n'}
+[2.988465] (cpp_safety) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.988993] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6592:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.989219] (cpp_safety) StderrLine: {'line': b' 6592 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(double __val)\n'}
+[2.989416] (cpp_safety) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.989595] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6592:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.989777] (cpp_safety) StderrLine: {'line': b' 6592 |   to_string(\x1b[01;36m\x1b[Kdouble __val\x1b[m\x1b[K)\n'}
+[2.989960] (cpp_safety) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.990198] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6601:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.990762] (cpp_safety) StderrLine: {'line': b' 6601 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long double __val)\n'}
+[2.991052] (cpp_safety) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.991354] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6601:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong double\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.991680] (cpp_safety) StderrLine: {'line': b' 6601 |   to_string(\x1b[01;36m\x1b[Klong double __val\x1b[m\x1b[K)\n'}
+[2.992002] (cpp_safety) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.992579] (cpp_safety) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[2.992978] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[2.993229] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.993376] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.993617] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.993761] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:1\x1b[m\x1b[K:\n'}
+[2.993857] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:287:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::to_string(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.993945] (cpp_safety) StderrLine: {'line': b'  287 | \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(const rclcpp::Parameter & param);\n'}
+[2.994043] (cpp_safety) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.994313] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:287:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Parameter&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.994487] (cpp_safety) StderrLine: {'line': b'  287 | to_string(\x1b[01;36m\x1b[Kconst rclcpp::Parameter & param\x1b[m\x1b[K);\n'}
+[2.994646] (cpp_safety) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.994794] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:292:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::to_string(const std::vector<rclcpp::Parameter>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.994944] (cpp_safety) StderrLine: {'line': b'  292 | \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(const std::vector<rclcpp::Parameter> & parameters);\n'}
+[2.995087] (cpp_safety) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.995227] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:292:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<rclcpp::Parameter>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.995377] (cpp_safety) StderrLine: {'line': b'  292 | \x1b[01;36m\x1b[Kst std::vector<rclcpp::Parameter> & parameters\x1b[m\x1b[K);\n'}
+[2.995527] (cpp_safety) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.995677] (cpp_safety) StderrLine: {'line': b'\n'}
+[3.012905] (-) TimerEvent: {}
+[3.113524] (-) TimerEvent: {}
+[3.213985] (-) TimerEvent: {}
+[3.314299] (-) TimerEvent: {}
+[3.414694] (-) TimerEvent: {}
+[3.515117] (-) TimerEvent: {}
+[3.615935] (-) TimerEvent: {}
+[3.716316] (-) TimerEvent: {}
+[3.816883] (-) TimerEvent: {}
+[3.917263] (-) TimerEvent: {}
+[4.017694] (-) TimerEvent: {}
+[4.118353] (-) TimerEvent: {}
+[4.218818] (-) TimerEvent: {}
+[4.319234] (-) TimerEvent: {}
+[4.419660] (-) TimerEvent: {}
+[4.520083] (-) TimerEvent: {}
+[4.620467] (-) TimerEvent: {}
+[4.720945] (-) TimerEvent: {}
+[4.821451] (-) TimerEvent: {}
+[4.922265] (-) TimerEvent: {}
+[5.022843] (-) TimerEvent: {}
+[5.123733] (-) TimerEvent: {}
+[5.224165] (-) TimerEvent: {}
+[5.328708] (-) TimerEvent: {}
+[5.429434] (-) TimerEvent: {}
+[5.529886] (-) TimerEvent: {}
+[5.631566] (-) TimerEvent: {}
+[5.735395] (-) TimerEvent: {}
+[5.835872] (-) TimerEvent: {}
+[5.941037] (-) TimerEvent: {}
+[6.041585] (-) TimerEvent: {}
+[6.142372] (-) TimerEvent: {}
+[6.243625] (-) TimerEvent: {}
+[6.344219] (-) TimerEvent: {}
+[6.445265] (-) TimerEvent: {}
+[6.545706] (-) TimerEvent: {}
+[6.647204] (-) TimerEvent: {}
+[6.747655] (-) TimerEvent: {}
+[6.850691] (-) TimerEvent: {}
+[6.951305] (-) TimerEvent: {}
+[7.054270] (-) TimerEvent: {}
+[7.158189] (-) TimerEvent: {}
+[7.262251] (-) TimerEvent: {}
+[7.362820] (-) TimerEvent: {}
+[7.463275] (-) TimerEvent: {}
+[7.563745] (-) TimerEvent: {}
+[7.664159] (-) TimerEvent: {}
+[7.764774] (-) TimerEvent: {}
+[7.865419] (-) TimerEvent: {}
+[7.968293] (-) TimerEvent: {}
+[8.068821] (-) TimerEvent: {}
+[8.169242] (-) TimerEvent: {}
+[8.269671] (-) TimerEvent: {}
+[8.370142] (-) TimerEvent: {}
+[8.433485] (cpp_safety) StderrLine: {'line': b'make[2]: *** [CMakeFiles/safety.dir/build.make:63: CMakeFiles/safety.dir/src/aeb.cpp.o] Error 1\n'}
+[8.435750] (cpp_safety) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/safety.dir/all] Error 2\n'}
+[8.436042] (cpp_safety) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[8.444326] (cpp_safety) CommandEnded: {'returncode': 2}
+[8.470680] (-) TimerEvent: {}
+[8.582272] (-) TimerEvent: {}
+[8.683038] (-) TimerEvent: {}
+[8.703688] (cpp_safety) JobEnded: {'identifier': 'cpp_safety', 'rc': 2}
+[8.706808] (-) EventReactorShutdown: {}

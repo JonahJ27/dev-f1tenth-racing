@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.002391] (cpp_safety) JobQueued: {'identifier': 'cpp_safety', 'dependencies': OrderedDict()}
+[0.002591] (cpp_safety) JobStarted: {'identifier': 'cpp_safety'}
+[0.019846] (cpp_safety) JobProgress: {'identifier': 'cpp_safety', 'progress': 'cmake'}
+[0.021001] (cpp_safety) JobProgress: {'identifier': 'cpp_safety', 'progress': 'build'}
+[0.022024] (cpp_safety) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety', '--', '-j4', '-l4'], 'cwd': '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jjaffe27'), ('SSH_AGENT_PID', '1770'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jjaffe27'), ('OLDPWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '158042'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jjaffe27'), ('JOURNAL_STREAM', '8:46146'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jjaffe27'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jjaffe27-XPS-13-9350:@/tmp/.ICE-unix/1811,unix/jjaffe27-XPS-13-9350:/tmp/.ICE-unix/1811'), ('INVOCATION_ID', '531175f25b7b464a87f42a85895005c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a2de6328-7af3-4dc4-afe5-816495eb1fc9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety:/opt/ros/foxy')]), 'shell': False}
+[0.089615] (cpp_safety) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target safety\x1b[0m\n'}
+[0.098685] (-) TimerEvent: {}
+[0.136095] (cpp_safety) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/safety.dir/src/aeb.cpp.o\x1b[0m\n'}
+[0.198832] (-) TimerEvent: {}
+[0.299215] (-) TimerEvent: {}
+[0.399584] (-) TimerEvent: {}
+[0.499929] (-) TimerEvent: {}
+[0.600377] (-) TimerEvent: {}
+[0.700745] (-) TimerEvent: {}
+[0.801077] (-) TimerEvent: {}
+[0.901430] (-) TimerEvent: {}
+[1.001784] (-) TimerEvent: {}
+[1.102129] (-) TimerEvent: {}
+[1.202540] (-) TimerEvent: {}
+[1.302941] (-) TimerEvent: {}
+[1.403335] (-) TimerEvent: {}
+[1.503739] (-) TimerEvent: {}
+[1.604138] (-) TimerEvent: {}
+[1.704530] (-) TimerEvent: {}
+[1.804940] (-) TimerEvent: {}
+[1.905325] (-) TimerEvent: {}
+[2.005679] (-) TimerEvent: {}
+[2.105991] (-) TimerEvent: {}
+[2.206341] (-) TimerEvent: {}
+[2.306689] (-) TimerEvent: {}
+[2.407036] (-) TimerEvent: {}
+[2.507393] (-) TimerEvent: {}
+[2.607757] (-) TimerEvent: {}
+[2.708157] (-) TimerEvent: {}
+[2.808551] (-) TimerEvent: {}
+[2.908974] (-) TimerEvent: {}
+[3.009367] (-) TimerEvent: {}
+[3.109717] (-) TimerEvent: {}
+[3.210081] (-) TimerEvent: {}
+[3.310431] (-) TimerEvent: {}
+[3.410786] (-) TimerEvent: {}
+[3.511140] (-) TimerEvent: {}
+[3.611496] (-) TimerEvent: {}
+[3.711836] (-) TimerEvent: {}
+[3.812194] (-) TimerEvent: {}
+[3.912555] (-) TimerEvent: {}
+[4.013136] (-) TimerEvent: {}
+[4.113494] (-) TimerEvent: {}
+[4.213866] (-) TimerEvent: {}
+[4.314219] (-) TimerEvent: {}
+[4.414606] (-) TimerEvent: {}
+[4.514976] (-) TimerEvent: {}
+[4.615353] (-) TimerEvent: {}
+[4.715817] (-) TimerEvent: {}
+[4.816194] (-) TimerEvent: {}
+[4.916578] (-) TimerEvent: {}
+[5.016977] (-) TimerEvent: {}
+[5.117384] (-) TimerEvent: {}
+[5.217780] (-) TimerEvent: {}
+[5.318443] (-) TimerEvent: {}
+[5.418833] (-) TimerEvent: {}
+[5.519315] (-) TimerEvent: {}
+[5.619819] (-) TimerEvent: {}
+[5.720237] (-) TimerEvent: {}
+[5.820595] (-) TimerEvent: {}
+[5.920948] (-) TimerEvent: {}
+[6.021268] (-) TimerEvent: {}
+[6.121584] (-) TimerEvent: {}
+[6.221981] (-) TimerEvent: {}
+[6.322359] (-) TimerEvent: {}
+[6.422760] (-) TimerEvent: {}
+[6.523076] (-) TimerEvent: {}
+[6.623406] (-) TimerEvent: {}
+[6.723713] (-) TimerEvent: {}
+[6.824067] (-) TimerEvent: {}
+[6.924535] (-) TimerEvent: {}
+[7.024931] (-) TimerEvent: {}
+[7.125236] (-) TimerEvent: {}
+[7.225545] (-) TimerEvent: {}
+[7.325864] (-) TimerEvent: {}
+[7.426166] (-) TimerEvent: {}
+[7.526496] (-) TimerEvent: {}
+[7.626897] (-) TimerEvent: {}
+[7.727311] (-) TimerEvent: {}
+[7.827701] (-) TimerEvent: {}
+[7.928010] (-) TimerEvent: {}
+[8.028328] (-) TimerEvent: {}
+[8.128715] (-) TimerEvent: {}
+[8.229107] (-) TimerEvent: {}
+[8.329539] (-) TimerEvent: {}
+[8.429957] (-) TimerEvent: {}
+[8.530276] (-) TimerEvent: {}
+[8.630613] (-) TimerEvent: {}
+[8.730952] (-) TimerEvent: {}
+[8.831293] (-) TimerEvent: {}
+[8.931700] (-) TimerEvent: {}
+[9.032122] (-) TimerEvent: {}
+[9.133468] (-) TimerEvent: {}
+[9.234148] (-) TimerEvent: {}
+[9.334575] (-) TimerEvent: {}
+[9.435006] (-) TimerEvent: {}
+[9.535356] (-) TimerEvent: {}
+[9.635714] (-) TimerEvent: {}
+[9.714112] (cpp_safety) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable safety\x1b[0m\n'}
+[9.735820] (-) TimerEvent: {}
+[9.836180] (-) TimerEvent: {}
+[9.936596] (-) TimerEvent: {}
+[10.037307] (-) TimerEvent: {}
+[10.137884] (-) TimerEvent: {}
+[10.238738] (-) TimerEvent: {}
+[10.339143] (-) TimerEvent: {}
+[10.440386] (-) TimerEvent: {}
+[10.542250] (-) TimerEvent: {}
+[10.628663] (cpp_safety) StdoutLine: {'line': b'[100%] Built target safety\n'}
+[10.642435] (-) TimerEvent: {}
+[10.671600] (cpp_safety) CommandEnded: {'returncode': 0}
+[10.736967] (cpp_safety) JobProgress: {'identifier': 'cpp_safety', 'progress': 'install'}
+[10.742979] (-) TimerEvent: {}
+[10.758784] (cpp_safety) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety'], 'cwd': '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jjaffe27'), ('SSH_AGENT_PID', '1770'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jjaffe27'), ('OLDPWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '158042'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jjaffe27'), ('JOURNAL_STREAM', '8:46146'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jjaffe27'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jjaffe27-XPS-13-9350:@/tmp/.ICE-unix/1811,unix/jjaffe27-XPS-13-9350:/tmp/.ICE-unix/1811'), ('INVOCATION_ID', '531175f25b7b464a87f42a85895005c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a2de6328-7af3-4dc4-afe5-816495eb1fc9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety:/opt/ros/foxy')]), 'shell': False}
+[10.774050] (cpp_safety) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.774982] (cpp_safety) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/lib/cpp_safety/safety\n'}
+[10.784049] (cpp_safety) StdoutLine: {'line': b'-- Set runtime path of "/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/lib/cpp_safety/safety" to ""\n'}
+[10.784594] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/ament_index/resource_index/package_run_dependencies/cpp_safety\n'}
+[10.784932] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/ament_index/resource_index/parent_prefix_path/cpp_safety\n'}
+[10.786216] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/ament_prefix_path.sh\n'}
+[10.786650] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/ament_prefix_path.dsv\n'}
+[10.787494] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/path.sh\n'}
+[10.787815] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/path.dsv\n'}
+[10.788458] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.bash\n'}
+[10.791554] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.sh\n'}
+[10.793488] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.zsh\n'}
+[10.794108] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.dsv\n'}
+[10.794661] (cpp_safety) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/package.dsv\n'}
+[10.795378] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/ament_index/resource_index/packages/cpp_safety\n'}
+[10.795772] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/cmake/cpp_safetyConfig.cmake\n'}
+[10.796298] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/cmake/cpp_safetyConfig-version.cmake\n'}
+[10.796868] (cpp_safety) StdoutLine: {'line': b'-- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/package.xml\n'}
+[10.800644] (cpp_safety) CommandEnded: {'returncode': 0}
+[10.843216] (-) TimerEvent: {}
+[10.914280] (cpp_safety) JobEnded: {'identifier': 'cpp_safety', 'rc': 0}
+[10.915822] (-) EventReactorShutdown: {}

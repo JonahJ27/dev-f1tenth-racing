@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000733] (safety) JobQueued: {'identifier': 'safety', 'dependencies': OrderedDict()}
+[0.002301] (safety) JobStarted: {'identifier': 'safety'}
+[0.100145] (-) TimerEvent: {}
+[0.200877] (-) TimerEvent: {}
+[0.301242] (-) TimerEvent: {}
+[0.401679] (-) TimerEvent: {}
+[0.502215] (-) TimerEvent: {}
+[0.602576] (-) TimerEvent: {}
+[0.702878] (-) TimerEvent: {}
+[0.803210] (-) TimerEvent: {}
+[0.903643] (-) TimerEvent: {}
+[1.004355] (-) TimerEvent: {}
+[1.016749] (safety) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/safety', 'build', '--build-base', '/home/jjaffe27/dev_f1tenth_ws/build/safety/build', 'install', '--prefix', '/home/jjaffe27/dev_f1tenth_ws/install/safety', '--record', '/home/jjaffe27/dev_f1tenth_ws/build/safety/install.log', '--single-version-externally-managed'], 'cwd': '/home/jjaffe27/dev_f1tenth_ws/src/safety', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jjaffe27', 'SSH_AGENT_PID': '1757', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jjaffe27', 'OLDPWD': '/home/jjaffe27', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1555', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6511', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jjaffe27', 'JOURNAL_STREAM': '8:44586', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jjaffe27', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jjaffe27-XPS-13-9350:@/tmp/.ICE-unix/1796,unix/jjaffe27-XPS-13-9350:/tmp/.ICE-unix/1796', 'INVOCATION_ID': 'f842002e560d420cb295401f5a1e9ebe', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6eede9fa-c85c-4886-8627-af8c407bcd35', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jjaffe27/dev_f1tenth_ws/build/safety', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.104571] (-) TimerEvent: {}
+[1.205078] (-) TimerEvent: {}
+[1.305287] (safety) StdoutLine: {'line': b'running egg_info\n'}
+[1.305782] (-) TimerEvent: {}
+[1.306143] (safety) StdoutLine: {'line': b'creating ../../build/safety/safety.egg-info\n'}
+[1.306449] (safety) StdoutLine: {'line': b'writing ../../build/safety/safety.egg-info/PKG-INFO\n'}
+[1.306878] (safety) StdoutLine: {'line': b'writing dependency_links to ../../build/safety/safety.egg-info/dependency_links.txt\n'}
+[1.307137] (safety) StdoutLine: {'line': b'writing entry points to ../../build/safety/safety.egg-info/entry_points.txt\n'}
+[1.307395] (safety) StdoutLine: {'line': b'writing requirements to ../../build/safety/safety.egg-info/requires.txt\n'}
+[1.307616] (safety) StdoutLine: {'line': b'writing top-level names to ../../build/safety/safety.egg-info/top_level.txt\n'}
+[1.311391] (safety) StdoutLine: {'line': b"writing manifest file '../../build/safety/safety.egg-info/SOURCES.txt'\n"}
+[1.353288] (safety) StdoutLine: {'line': b"reading manifest file '../../build/safety/safety.egg-info/SOURCES.txt'\n"}
+[1.354283] (safety) StdoutLine: {'line': b"writing manifest file '../../build/safety/safety.egg-info/SOURCES.txt'\n"}
+[1.354699] (safety) StdoutLine: {'line': b'running build\n'}
+[1.354973] (safety) StdoutLine: {'line': b'running build_py\n'}
+[1.355257] (safety) StdoutLine: {'line': b'creating /home/jjaffe27/dev_f1tenth_ws/build/safety/build\n'}
+[1.355473] (safety) StdoutLine: {'line': b'creating /home/jjaffe27/dev_f1tenth_ws/build/safety/build/lib\n'}
+[1.355620] (safety) StdoutLine: {'line': b'creating /home/jjaffe27/dev_f1tenth_ws/build/safety/build/lib/safety\n'}
+[1.355804] (safety) StdoutLine: {'line': b'copying safety/aeb.py -> /home/jjaffe27/dev_f1tenth_ws/build/safety/build/lib/safety\n'}
+[1.355937] (safety) StdoutLine: {'line': b'copying safety/__init__.py -> /home/jjaffe27/dev_f1tenth_ws/build/safety/build/lib/safety\n'}
+[1.356068] (safety) StdoutLine: {'line': b'running install\n'}
+[1.357148] (safety) StdoutLine: {'line': b'running install_lib\n'}
+[1.358406] (safety) StdoutLine: {'line': b'creating /home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages/safety\n'}
+[1.358689] (safety) StdoutLine: {'line': b'copying /home/jjaffe27/dev_f1tenth_ws/build/safety/build/lib/safety/aeb.py -> /home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages/safety\n'}
+[1.358930] (safety) StdoutLine: {'line': b'copying /home/jjaffe27/dev_f1tenth_ws/build/safety/build/lib/safety/__init__.py -> /home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages/safety\n'}
+[1.359619] (safety) StdoutLine: {'line': b'byte-compiling /home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages/safety/aeb.py to aeb.cpython-38.pyc\n'}
+[1.362458] (safety) StdoutLine: {'line': b'byte-compiling /home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages/safety/__init__.py to __init__.cpython-38.pyc\n'}
+[1.362768] (safety) StdoutLine: {'line': b'running install_data\n'}
+[1.363350] (safety) StdoutLine: {'line': b'creating /home/jjaffe27/dev_f1tenth_ws/install/safety/share/ament_index\n'}
+[1.363705] (safety) StdoutLine: {'line': b'creating /home/jjaffe27/dev_f1tenth_ws/install/safety/share/ament_index/resource_index\n'}
+[1.363964] (safety) StdoutLine: {'line': b'creating /home/jjaffe27/dev_f1tenth_ws/install/safety/share/ament_index/resource_index/packages\n'}
+[1.364061] (safety) StdoutLine: {'line': b'copying resource/safety -> /home/jjaffe27/dev_f1tenth_ws/install/safety/share/ament_index/resource_index/packages\n'}
+[1.364142] (safety) StdoutLine: {'line': b'copying package.xml -> /home/jjaffe27/dev_f1tenth_ws/install/safety/share/safety\n'}
+[1.364247] (safety) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.366756] (safety) StdoutLine: {'line': b'Copying ../../build/safety/safety.egg-info to /home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages/safety-0.0.0-py3.8.egg-info\n'}
+[1.368042] (safety) StdoutLine: {'line': b'running install_scripts\n'}
+[1.390356] (safety) StdoutLine: {'line': b'Installing aeb script to /home/jjaffe27/dev_f1tenth_ws/install/safety/lib/safety\n'}
+[1.390829] (safety) StdoutLine: {'line': b"writing list of installed files to '/home/jjaffe27/dev_f1tenth_ws/build/safety/install.log'\n"}
+[1.405944] (-) TimerEvent: {}
+[1.429172] (safety) CommandEnded: {'returncode': 0}
+[1.459975] (safety) JobEnded: {'identifier': 'safety', 'rc': 0}
+[1.461120] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety': /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety -- -j4 -l4
+[0.156s] [35m[1mScanning dependencies of target safety[0m
+[0.208s] [ 50%] [32mBuilding CXX object CMakeFiles/safety.dir/src/aeb.cpp.o[0m
+[11.701s] [100%] [32m[1mLinking CXX executable safety[0m
+[12.751s] [100%] Built target safety
+[12.774s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety' returned '0': /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety -- -j4 -l4
+[12.846s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety': /usr/bin/cmake --install /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety
+[12.874s] -- Install configuration: ""
+[12.876s] -- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/lib/cpp_safety/safety
+[12.882s] -- Set runtime path of "/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/lib/cpp_safety/safety" to ""
+[12.883s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/ament_index/resource_index/package_run_dependencies/cpp_safety
+[12.884s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/ament_index/resource_index/parent_prefix_path/cpp_safety
+[12.884s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/ament_prefix_path.sh
+[12.884s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/ament_prefix_path.dsv
+[12.885s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/path.sh
+[12.885s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/path.dsv
+[12.885s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.bash
+[12.886s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.sh
+[12.886s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.zsh
+[12.886s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.dsv
+[12.886s] -- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/package.dsv
+[12.887s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/ament_index/resource_index/packages/cpp_safety
+[12.887s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/cmake/cpp_safetyConfig.cmake
+[12.887s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/cmake/cpp_safetyConfig-version.cmake
+[12.888s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/package.xml
+[12.899s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety' returned '0': /usr/bin/cmake --install /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety

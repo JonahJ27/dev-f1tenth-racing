@@ -1,0 +1,430 @@
+[0.020s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow -- -j4 -l4
+[0.085s] [35m[1mScanning dependencies of target rgf[0m
+[0.127s] [ 50%] [32mBuilding CXX object CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o[0m
+[1.837s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:[m[K In member function ‘[01m[Kdouble* ReactiveGapFollow::preprocess_lidar(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr, int)[m[K’:
+[1.837s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmin(__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type&, double)[m[K’
+[1.837s]    36 |             proc_ranges[i] = min(ranges[i], 3.0[01;31m[K)[m[K;
+[1.838s]       |                                                [01;31m[K^[m[K
+[1.838s] In file included from [01m[K/usr/include/c++/9/memory:62[m[K,
+[1.838s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.838s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.838s] [01m[K/usr/include/c++/9/bits/stl_algobase.h:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)[m[K’
+[1.838s]   198 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b)
+[1.838s]       |     [01;36m[K^~~[m[K
+[1.839s] [01m[K/usr/include/c++/9/bits/stl_algobase.h:198:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.839s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:48:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[1.839s]    36 |             proc_ranges[i] = min(ranges[i], 3.0[01;36m[K)[m[K;
+[1.839s]       |                                                [01;36m[K^[m[K
+[1.839s] In file included from [01m[K/usr/include/c++/9/memory:62[m[K,
+[1.839s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.839s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.839s] [01m[K/usr/include/c++/9/bits/stl_algobase.h:246:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)[m[K’
+[1.840s]   246 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+[1.840s]       |     [01;36m[K^~~[m[K
+[1.840s] [01m[K/usr/include/c++/9/bits/stl_algobase.h:246:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.840s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:48:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[1.840s]    36 |             proc_ranges[i] = min(ranges[i], 3.0[01;36m[K)[m[K;
+[1.840s]       |                                                [01;36m[K^[m[K
+[1.840s] In file included from [01m[K/usr/include/c++/9/algorithm:62[m[K,
+[1.841s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:18[m[K,
+[1.841s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.841s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.841s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.841s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.841s] [01m[K/usr/include/c++/9/bits/stl_algo.h:3450:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)[m[K’
+[1.841s]  3450 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l)
+[1.841s]       |     [01;36m[K^~~[m[K
+[1.841s] [01m[K/usr/include/c++/9/bits/stl_algo.h:3450:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.841s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:48:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kfloat[m[K’
+[1.842s]    36 |             proc_ranges[i] = min(ranges[i], 3.0[01;36m[K)[m[K;
+[1.842s]       |                                                [01;36m[K^[m[K
+[1.842s] In file included from [01m[K/usr/include/c++/9/algorithm:62[m[K,
+[1.842s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:18[m[K,
+[1.842s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.842s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.842s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.842s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.842s] [01m[K/usr/include/c++/9/bits/stl_algo.h:3456:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)[m[K’
+[1.843s]  3456 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l, _Compare __comp)
+[1.844s]       |     [01;36m[K^~~[m[K
+[1.845s] [01m[K/usr/include/c++/9/bits/stl_algo.h:3456:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.845s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:48:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kfloat[m[K’
+[1.845s]    36 |             proc_ranges[i] = min(ranges[i], 3.0[01;36m[K)[m[K;
+[1.845s]       |                                                [01;36m[K^[m[K
+[1.845s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:[m[K In member function ‘[01m[Kstd::pair<int, int> ReactiveGapFollow::find_max_gap(double*, int)[m[K’:
+[1.847s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbegin(double*&)[m[K’
+[1.847s]    59 |         double threshold = max_element(begin(free_space_ranges[01;31m[K)[m[K, end(free_space_ranges)) - 0.5;
+[1.847s]       |                                                               [01;31m[K^[m[K
+[1.848s] In file included from [01m[K/usr/include/c++/9/utility:76[m[K,
+[1.848s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:36[m[K,
+[1.848s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.848s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.848s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.848s] [01m[K/usr/include/c++/9/initializer_list:89:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp* std::begin(std::initializer_list<_Tp>)[m[K’
+[1.848s]    89 |     [01;36m[Kbegin[m[K(initializer_list<_Tp> __ils) noexcept
+[1.849s]       |     [01;36m[K^~~~~[m[K
+[1.849s] [01m[K/usr/include/c++/9/initializer_list:89:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.849s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.849s]    59 |         double threshold = max_element(begin(free_space_ranges[01;36m[K)[m[K, end(free_space_ranges)) - 0.5;
+[1.849s]       |                                                               [01;36m[K^[m[K
+[1.849s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.849s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.850s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.850s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.850s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.850s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.850s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.850s] [01m[K/usr/include/c++/9/bits/range_access.h:48:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(_Container&)[m[K’
+[1.850s]    48 |     [01;36m[Kbegin[m[K(_Container& __cont) -> decltype(__cont.begin())
+[1.850s]       |     [01;36m[K^~~~~[m[K
+[1.851s] [01m[K/usr/include/c++/9/bits/range_access.h:48:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.851s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(_Container&) [with _Container = double*][m[K’:
+[1.851s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:[m[K   required from here
+[1.851s] [01m[K/usr/include/c++/9/bits/range_access.h:48:50:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[K__cont[m[K’, which is of non-class type ‘[01m[Kdouble*[m[K’
+[1.851s]    48 |     begin(_Container& __cont) -> decltype([01;31m[K__cont.begin[m[K())
+[1.851s]       |                                           [01;31m[K~~~~~~~^~~~~[m[K
+[1.851s] [01m[K/usr/include/c++/9/bits/range_access.h:58:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(const _Container&)[m[K’
+[1.851s]    58 |     [01;36m[Kbegin[m[K(const _Container& __cont) -> decltype(__cont.begin())
+[1.851s]       |     [01;36m[K^~~~~[m[K
+[1.851s] [01m[K/usr/include/c++/9/bits/range_access.h:58:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.851s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(const _Container&) [with _Container = double*][m[K’:
+[1.852s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:[m[K   required from here
+[1.852s] [01m[K/usr/include/c++/9/bits/range_access.h:58:56:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[K__cont[m[K’, which is of non-class type ‘[01m[Kdouble* const[m[K’
+[1.852s]    58 |     begin(const _Container& __cont) -> decltype([01;31m[K__cont.begin[m[K())
+[1.852s]       |                                                 [01;31m[K~~~~~~~^~~~~[m[K
+[1.852s] [01m[K/usr/include/c++/9/bits/range_access.h:87:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::begin(_Tp (&)[_Nm])[m[K’
+[1.852s]    87 |     [01;36m[Kbegin[m[K(_Tp (&__arr)[_Nm]) noexcept
+[1.852s]       |     [01;36m[K^~~~~[m[K
+[1.852s] [01m[K/usr/include/c++/9/bits/range_access.h:87:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.852s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_Tp [_Nm][m[K’ and ‘[01m[Kdouble*[m[K’
+[1.852s]    59 |         double threshold = max_element(begin(free_space_ranges[01;36m[K)[m[K, end(free_space_ranges)) - 0.5;
+[1.852s]       |                                                               [01;36m[K^[m[K
+[1.853s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.853s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.853s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.853s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.853s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.853s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.853s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.853s] [01m[K/usr/include/c++/9/bits/range_access.h:104:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp* std::begin(std::valarray<_Tp>&)[m[K’
+[1.853s]   104 |   template<typename _Tp> _Tp* [01;36m[Kbegin[m[K(valarray<_Tp>&);
+[1.853s]       |                               [01;36m[K^~~~~[m[K
+[1.853s] [01m[K/usr/include/c++/9/bits/range_access.h:104:31:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.854s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::valarray<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.854s]    59 |         double threshold = max_element(begin(free_space_ranges[01;36m[K)[m[K, end(free_space_ranges)) - 0.5;
+[1.854s]       |                                                               [01;36m[K^[m[K
+[1.854s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.854s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.854s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.854s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.854s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.854s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.854s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.854s] [01m[K/usr/include/c++/9/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp* std::begin(const std::valarray<_Tp>&)[m[K’
+[1.855s]   105 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&);
+[1.855s]       |                                     [01;36m[K^~~~~[m[K
+[1.855s] [01m[K/usr/include/c++/9/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.855s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.855s]    59 |         double threshold = max_element(begin(free_space_ranges[01;36m[K)[m[K, end(free_space_ranges)) - 0.5;
+[1.855s]       |                                                               [01;36m[K^[m[K
+[1.855s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kend(double*&)[m[K’
+[1.855s]    59 |         double threshold = max_element(begin(free_space_ranges), end(free_space_ranges[01;31m[K)[m[K) - 0.5;
+[1.855s]       |                                                                                       [01;31m[K^[m[K
+[1.855s] In file included from [01m[K/usr/include/c++/9/utility:76[m[K,
+[1.855s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:36[m[K,
+[1.855s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.856s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.856s] [01m[K/usr/include/c++/9/initializer_list:99:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp* std::end(std::initializer_list<_Tp>)[m[K’
+[1.856s]    99 |     [01;36m[Kend[m[K(initializer_list<_Tp> __ils) noexcept
+[1.856s]       |     [01;36m[K^~~[m[K
+[1.856s] [01m[K/usr/include/c++/9/initializer_list:99:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.856s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.856s]    59 |         double threshold = max_element(begin(free_space_ranges), end(free_space_ranges[01;36m[K)[m[K) - 0.5;
+[1.856s]       |                                                                                       [01;36m[K^[m[K
+[1.856s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.856s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.856s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.857s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.857s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.857s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.857s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.857s] [01m[K/usr/include/c++/9/bits/range_access.h:68:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(_Container&)[m[K’
+[1.857s]    68 |     [01;36m[Kend[m[K(_Container& __cont) -> decltype(__cont.end())
+[1.857s]       |     [01;36m[K^~~[m[K
+[1.857s] [01m[K/usr/include/c++/9/bits/range_access.h:68:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.857s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(_Container&) [with _Container = double*][m[K’:
+[1.857s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:[m[K   required from here
+[1.857s] [01m[K/usr/include/c++/9/bits/range_access.h:68:48:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[K__cont[m[K’, which is of non-class type ‘[01m[Kdouble*[m[K’
+[1.857s]    68 |     end(_Container& __cont) -> decltype([01;31m[K__cont.end[m[K())
+[1.858s]       |                                         [01;31m[K~~~~~~~^~~[m[K
+[1.858s] [01m[K/usr/include/c++/9/bits/range_access.h:78:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(const _Container&)[m[K’
+[1.858s]    78 |     [01;36m[Kend[m[K(const _Container& __cont) -> decltype(__cont.end())
+[1.858s]       |     [01;36m[K^~~[m[K
+[1.858s] [01m[K/usr/include/c++/9/bits/range_access.h:78:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.858s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(const _Container&) [with _Container = double*][m[K’:
+[1.858s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:[m[K   required from here
+[1.858s] [01m[K/usr/include/c++/9/bits/range_access.h:78:54:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[K__cont[m[K’, which is of non-class type ‘[01m[Kdouble* const[m[K’
+[1.858s]    78 |     end(const _Container& __cont) -> decltype([01;31m[K__cont.end[m[K())
+[1.858s]       |                                               [01;31m[K~~~~~~~^~~[m[K
+[1.858s] [01m[K/usr/include/c++/9/bits/range_access.h:97:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::end(_Tp (&)[_Nm])[m[K’
+[1.858s]    97 |     [01;36m[Kend[m[K(_Tp (&__arr)[_Nm]) noexcept
+[1.858s]       |     [01;36m[K^~~[m[K
+[1.858s] [01m[K/usr/include/c++/9/bits/range_access.h:97:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.859s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_Tp [_Nm][m[K’ and ‘[01m[Kdouble*[m[K’
+[1.859s]    59 |         double threshold = max_element(begin(free_space_ranges), end(free_space_ranges[01;36m[K)[m[K) - 0.5;
+[1.859s]       |                                                                                       [01;36m[K^[m[K
+[1.859s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.859s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.860s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.860s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.860s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.860s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.860s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.860s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.860s] [01m[K/usr/include/c++/9/bits/range_access.h:106:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp* std::end(std::valarray<_Tp>&)[m[K’
+[1.860s]   106 |   template<typename _Tp> _Tp* [01;36m[Kend[m[K(valarray<_Tp>&);
+[1.860s]       |                               [01;36m[K^~~[m[K
+[1.860s] [01m[K/usr/include/c++/9/bits/range_access.h:106:31:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.860s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::valarray<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.860s]    59 |         double threshold = max_element(begin(free_space_ranges), end(free_space_ranges[01;36m[K)[m[K) - 0.5;
+[1.861s]       |                                                                                       [01;36m[K^[m[K
+[1.861s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.861s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.861s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.861s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.861s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.861s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.861s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.861s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.861s] [01m[K/usr/include/c++/9/bits/range_access.h:107:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp* std::end(const std::valarray<_Tp>&)[m[K’
+[1.861s]   107 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&);
+[1.861s]       |                                     [01;36m[K^~~[m[K
+[1.861s] [01m[K/usr/include/c++/9/bits/range_access.h:107:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.862s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.862s]    59 |         double threshold = max_element(begin(free_space_ranges), end(free_space_ranges[01;36m[K)[m[K) - 0.5;
+[1.862s]       |                                                                                       [01;36m[K^[m[K
+[1.862s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:80:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.862s]    80 |         for (int i = 0; [01;35m[Ki < start_gaps.size()[m[K; i++) {
+[1.862s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[1.862s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:[m[K In member function ‘[01m[Kvoid ReactiveGapFollow::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[1.862s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbegin(double*&)[m[K’
+[1.862s]    98 |         double closest_dist = min_element(begin(proc_ranges[01;31m[K)[m[K, end(proc_ranges));
+[1.862s]       |                                                            [01;31m[K^[m[K
+[1.862s] In file included from [01m[K/usr/include/c++/9/utility:76[m[K,
+[1.862s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:36[m[K,
+[1.862s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.863s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.863s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.863s] [01m[K/usr/include/c++/9/initializer_list:89:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp* std::begin(std::initializer_list<_Tp>)[m[K’
+[1.863s]    89 |     [01;36m[Kbegin[m[K(initializer_list<_Tp> __ils) noexcept
+[1.863s]       |     [01;36m[K^~~~~[m[K
+[1.863s] [01m[K/usr/include/c++/9/initializer_list:89:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.863s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:60:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.863s]    98 |         double closest_dist = min_element(begin(proc_ranges[01;36m[K)[m[K, end(proc_ranges));
+[1.863s]       |                                                            [01;36m[K^[m[K
+[1.864s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.864s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.864s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.864s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.864s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.864s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.864s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.864s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.865s] [01m[K/usr/include/c++/9/bits/range_access.h:48:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(_Container&)[m[K’
+[1.865s]    48 |     [01;36m[Kbegin[m[K(_Container& __cont) -> decltype(__cont.begin())
+[1.865s]       |     [01;36m[K^~~~~[m[K
+[1.865s] [01m[K/usr/include/c++/9/bits/range_access.h:48:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.865s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(_Container&) [with _Container = double*][m[K’:
+[1.865s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:60:[m[K   required from here
+[1.865s] [01m[K/usr/include/c++/9/bits/range_access.h:48:50:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[K__cont[m[K’, which is of non-class type ‘[01m[Kdouble*[m[K’
+[1.865s]    48 |     begin(_Container& __cont) -> decltype([01;31m[K__cont.begin[m[K())
+[1.865s]       |                                           [01;31m[K~~~~~~~^~~~~[m[K
+[1.865s] [01m[K/usr/include/c++/9/bits/range_access.h:58:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(const _Container&)[m[K’
+[1.866s]    58 |     [01;36m[Kbegin[m[K(const _Container& __cont) -> decltype(__cont.begin())
+[1.866s]       |     [01;36m[K^~~~~[m[K
+[1.866s] [01m[K/usr/include/c++/9/bits/range_access.h:58:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.866s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(const _Container&) [with _Container = double*][m[K’:
+[1.866s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:60:[m[K   required from here
+[1.866s] [01m[K/usr/include/c++/9/bits/range_access.h:58:56:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[K__cont[m[K’, which is of non-class type ‘[01m[Kdouble* const[m[K’
+[1.866s]    58 |     begin(const _Container& __cont) -> decltype([01;31m[K__cont.begin[m[K())
+[1.866s]       |                                                 [01;31m[K~~~~~~~^~~~~[m[K
+[1.866s] [01m[K/usr/include/c++/9/bits/range_access.h:87:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::begin(_Tp (&)[_Nm])[m[K’
+[1.866s]    87 |     [01;36m[Kbegin[m[K(_Tp (&__arr)[_Nm]) noexcept
+[1.866s]       |     [01;36m[K^~~~~[m[K
+[1.866s] [01m[K/usr/include/c++/9/bits/range_access.h:87:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.866s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:60:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_Tp [_Nm][m[K’ and ‘[01m[Kdouble*[m[K’
+[1.867s]    98 |         double closest_dist = min_element(begin(proc_ranges[01;36m[K)[m[K, end(proc_ranges));
+[1.867s]       |                                                            [01;36m[K^[m[K
+[1.867s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.867s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.867s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.867s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.867s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.867s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.867s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.867s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.867s] [01m[K/usr/include/c++/9/bits/range_access.h:104:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp* std::begin(std::valarray<_Tp>&)[m[K’
+[1.867s]   104 |   template<typename _Tp> _Tp* [01;36m[Kbegin[m[K(valarray<_Tp>&);
+[1.867s]       |                               [01;36m[K^~~~~[m[K
+[1.868s] [01m[K/usr/include/c++/9/bits/range_access.h:104:31:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.868s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:60:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::valarray<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.868s]    98 |         double closest_dist = min_element(begin(proc_ranges[01;36m[K)[m[K, end(proc_ranges));
+[1.868s]       |                                                            [01;36m[K^[m[K
+[1.868s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.868s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.868s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.868s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.868s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.868s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.868s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.868s] [01m[K/usr/include/c++/9/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp* std::begin(const std::valarray<_Tp>&)[m[K’
+[1.868s]   105 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&);
+[1.869s]       |                                     [01;36m[K^~~~~[m[K
+[1.869s] [01m[K/usr/include/c++/9/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.869s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:60:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.869s]    98 |         double closest_dist = min_element(begin(proc_ranges[01;36m[K)[m[K, end(proc_ranges));
+[1.869s]       |                                                            [01;36m[K^[m[K
+[1.869s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kend(double*&)[m[K’
+[1.869s]    98 |         double closest_dist = min_element(begin(proc_ranges), end(proc_ranges[01;31m[K)[m[K);
+[1.869s]       |                                                                              [01;31m[K^[m[K
+[1.869s] In file included from [01m[K/usr/include/c++/9/utility:76[m[K,
+[1.869s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:36[m[K,
+[1.869s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.869s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.869s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.870s] [01m[K/usr/include/c++/9/initializer_list:99:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp* std::end(std::initializer_list<_Tp>)[m[K’
+[1.870s]    99 |     [01;36m[Kend[m[K(initializer_list<_Tp> __ils) noexcept
+[1.870s]       |     [01;36m[K^~~[m[K
+[1.870s] [01m[K/usr/include/c++/9/initializer_list:99:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.870s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:78:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.870s]    98 |         double closest_dist = min_element(begin(proc_ranges), end(proc_ranges[01;36m[K)[m[K);
+[1.870s]       |                                                                              [01;36m[K^[m[K
+[1.870s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.870s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.870s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.870s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.870s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.870s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.871s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.871s] [01m[K/usr/include/c++/9/bits/range_access.h:68:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(_Container&)[m[K’
+[1.871s]    68 |     [01;36m[Kend[m[K(_Container& __cont) -> decltype(__cont.end())
+[1.871s]       |     [01;36m[K^~~[m[K
+[1.871s] [01m[K/usr/include/c++/9/bits/range_access.h:68:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.871s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(_Container&) [with _Container = double*][m[K’:
+[1.871s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:78:[m[K   required from here
+[1.871s] [01m[K/usr/include/c++/9/bits/range_access.h:68:48:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[K__cont[m[K’, which is of non-class type ‘[01m[Kdouble*[m[K’
+[1.871s]    68 |     end(_Container& __cont) -> decltype([01;31m[K__cont.end[m[K())
+[1.871s]       |                                         [01;31m[K~~~~~~~^~~[m[K
+[1.871s] [01m[K/usr/include/c++/9/bits/range_access.h:78:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(const _Container&)[m[K’
+[1.871s]    78 |     [01;36m[Kend[m[K(const _Container& __cont) -> decltype(__cont.end())
+[1.871s]       |     [01;36m[K^~~[m[K
+[1.872s] [01m[K/usr/include/c++/9/bits/range_access.h:78:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.872s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(const _Container&) [with _Container = double*][m[K’:
+[1.872s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:78:[m[K   required from here
+[1.872s] [01m[K/usr/include/c++/9/bits/range_access.h:78:54:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[K__cont[m[K’, which is of non-class type ‘[01m[Kdouble* const[m[K’
+[1.872s]    78 |     end(const _Container& __cont) -> decltype([01;31m[K__cont.end[m[K())
+[1.872s]       |                                               [01;31m[K~~~~~~~^~~[m[K
+[1.872s] [01m[K/usr/include/c++/9/bits/range_access.h:97:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::end(_Tp (&)[_Nm])[m[K’
+[1.872s]    97 |     [01;36m[Kend[m[K(_Tp (&__arr)[_Nm]) noexcept
+[1.872s]       |     [01;36m[K^~~[m[K
+[1.872s] [01m[K/usr/include/c++/9/bits/range_access.h:97:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.872s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:78:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_Tp [_Nm][m[K’ and ‘[01m[Kdouble*[m[K’
+[1.872s]    98 |         double closest_dist = min_element(begin(proc_ranges), end(proc_ranges[01;36m[K)[m[K);
+[1.872s]       |                                                                              [01;36m[K^[m[K
+[1.873s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.873s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.873s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.873s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.873s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.873s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.873s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.873s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.873s] [01m[K/usr/include/c++/9/bits/range_access.h:106:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp* std::end(std::valarray<_Tp>&)[m[K’
+[1.873s]   106 |   template<typename _Tp> _Tp* [01;36m[Kend[m[K(valarray<_Tp>&);
+[1.873s]       |                               [01;36m[K^~~[m[K
+[1.873s] [01m[K/usr/include/c++/9/bits/range_access.h:106:31:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.873s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:78:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::valarray<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.874s]    98 |         double closest_dist = min_element(begin(proc_ranges), end(proc_ranges[01;36m[K)[m[K);
+[1.874s]       |                                                                              [01;36m[K^[m[K
+[1.874s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.874s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.874s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.874s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.874s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.874s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.874s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.874s] [01m[K/usr/include/c++/9/bits/range_access.h:107:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp* std::end(const std::valarray<_Tp>&)[m[K’
+[1.874s]   107 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&);
+[1.874s]       |                                     [01;36m[K^~~[m[K
+[1.874s] [01m[K/usr/include/c++/9/bits/range_access.h:107:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.875s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:78:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kdouble*[m[K’
+[1.875s]    98 |         double closest_dist = min_element(begin(proc_ranges), end(proc_ranges[01;36m[K)[m[K);
+[1.875s]       |                                                                              [01;36m[K^[m[K
+[1.875s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:104:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[1.875s]   104 |             i <= [01;31m[Kint[m[K(ceil(30.0 / closest_dist) + closest_idx; i++)) {
+[1.875s]       |                  [01;31m[K^~~[m[K
+[1.875s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:104:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+[1.875s]   104 |             i <=[01;31m[K [m[K[32m[Kint[m[K(ceil(30.0 / closest_dist) + closest_idx; i++)) {
+[1.875s]       |                 [01;31m[K^[m[K[32m[K~~~[m[K
+[1.875s]       |                 [32m[K;[m[K
+[1.875s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:104:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[1.875s]   104 |             i <= [01;31m[Kint[m[K(ceil(30.0 / closest_dist) + closest_idx; i++)) {
+[1.875s]       |                  [01;31m[K^~~[m[K
+[1.876s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:104:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kint[m[K’
+[1.876s]   104 |             i <=[01;31m[K [m[K[32m[Kint[m[K(ceil(30.0 / closest_dist) + closest_idx; i++)) {
+[1.876s]       |                 [01;31m[K^[m[K[32m[K~~~[m[K
+[1.876s]       |                 [32m[K)[m[K
+[1.876s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:103:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.876s]   103 |         for [01;36m[K([m[Kint i = -1 * int(ceil(30.0 / closest_dist)) + closest_idx;
+[1.876s]       |             [01;36m[K^[m[K
+[1.876s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:104:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[1.876s]   104 |             i <= [01;31m[Kint[m[K(ceil(30.0 / closest_dist) + closest_idx; i++)) {
+[1.876s]       |                  [01;31m[K^~~[m[K
+[1.876s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:103:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[1.877s]   103 |         [01;35m[Kfor[m[K (int i = -1 * int(ceil(30.0 / closest_dist)) + closest_idx;
+[1.877s]       |         [01;35m[K^~~[m[K
+[1.877s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:104:63:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+[1.877s]   104 |             i <= int(ceil(30.0 / closest_dist) + closest_idx; [01;36m[Ki[m[K++)) {
+[1.877s]       |                                                               [01;36m[K^[m[K
+[1.877s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:104:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[1.877s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:111:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kself[m[K’ was not declared in this scope
+[1.877s]   111 |         pair<int, int> gap = [01;31m[Kself[m[K.find_max_gap(proc_ranges)
+[1.877s]       |                              [01;31m[K^~~~[m[K
+[1.877s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:116:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrive[m[K’ was not declared in this scope
+[1.877s]   116 |         [01;31m[Kdrive[m[K.drive.steering_angle = data.angle_min + data.angle_increment * best_point;
+[1.877s]       |         [01;31m[K^~~~~[m[K
+[1.877s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:116:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope
+[1.878s]   116 |         drive.drive.steering_angle = [01;31m[Kdata[m[K.angle_min + data.angle_increment * best_point;
+[1.878s]       |                                      [01;31m[K^~~~[m[K
+[1.878s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:116:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kbest_point[m[K’ was not declared in this scope; did you mean ‘[01m[Kfind_best_point[m[K’?
+[1.878s]   116 |         drive.drive.steering_angle = data.angle_min + data.angle_increment * [01;31m[Kbest_point[m[K;
+[1.878s]       |                                                                              [01;31m[K^~~~~~~~~~[m[K
+[1.878s]       |                                                                              [32m[Kfind_best_point[m[K
+[1.878s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:118:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstSharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdrive[m[K’
+[1.878s]   118 |         msg.[01;31m[Kdrive[m[K.speed = numbers::pi - abs(msg.drive.steering_angle);
+[1.878s]       |             [01;31m[K^~~~~[m[K
+[1.878s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:118:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knumbers[m[K’ has not been declared
+[1.878s]   118 |         msg.drive.speed = [01;31m[Knumbers[m[K::pi - abs(msg.drive.steering_angle);
+[1.878s]       |                           [01;31m[K^~~~~~~[m[K
+[1.878s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:118:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstSharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdrive[m[K’
+[1.879s]   118 |         msg.drive.speed = numbers::pi - abs(msg.[01;31m[Kdrive[m[K.steering_angle);
+[1.879s]       |                                                 [01;31m[K^~~~~[m[K
+[1.879s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:111:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgap[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.879s]   111 |         pair<int, int> [01;35m[Kgap[m[K = self.find_max_gap(proc_ranges)
+[1.879s]       |                        [01;35m[K^~~[m[K
+[1.879s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:[m[K In member function ‘[01m[Kint ReactiveGapFollow::find_best_point(double, double, double*)[m[K’:
+[1.879s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:124:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kranges[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.879s]   124 |     int find_best_point(double start_i, double end_i, [01;35m[Kdouble* ranges[m[K) {
+[1.879s]       |                                                       [01;35m[K~~~~~~~~^~~~~~[m[K
+[3.993s] make[2]: *** [CMakeFiles/rgf.dir/build.make:63: CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o] Error 1
+[3.994s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgf.dir/all] Error 2
+[3.994s] make: *** [Makefile:141: all] Error 2
+[3.997s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow -- -j4 -l4

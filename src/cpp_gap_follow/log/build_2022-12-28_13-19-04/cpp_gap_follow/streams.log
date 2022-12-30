@@ -1,0 +1,78 @@
+[0.025s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow -- -j4 -l4
+[0.085s] [35m[1mScanning dependencies of target rgf[0m
+[0.126s] [ 50%] [32mBuilding CXX object CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o[0m
+[1.808s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:[m[K In member function ‘[01m[Kdouble* ReactiveGapFollow::preprocess_lidar(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr, int)[m[K’:
+[1.808s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmin(__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type&, double)[m[K’
+[1.808s]    36 |             proc_ranges[i] = min(ranges[i], 3.0[01;31m[K)[m[K;
+[1.809s]       |                                                [01;31m[K^[m[K
+[1.809s] In file included from [01m[K/usr/include/c++/9/memory:62[m[K,
+[1.809s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.809s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.809s] [01m[K/usr/include/c++/9/bits/stl_algobase.h:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)[m[K’
+[1.809s]   198 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b)
+[1.809s]       |     [01;36m[K^~~[m[K
+[1.810s] [01m[K/usr/include/c++/9/bits/stl_algobase.h:198:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.810s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:48:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[1.810s]    36 |             proc_ranges[i] = min(ranges[i], 3.0[01;36m[K)[m[K;
+[1.810s]       |                                                [01;36m[K^[m[K
+[1.810s] In file included from [01m[K/usr/include/c++/9/memory:62[m[K,
+[1.810s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.810s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.811s] [01m[K/usr/include/c++/9/bits/stl_algobase.h:246:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)[m[K’
+[1.811s]   246 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+[1.811s]       |     [01;36m[K^~~[m[K
+[1.811s] [01m[K/usr/include/c++/9/bits/stl_algobase.h:246:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.811s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:48:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[1.811s]    36 |             proc_ranges[i] = min(ranges[i], 3.0[01;36m[K)[m[K;
+[1.811s]       |                                                [01;36m[K^[m[K
+[1.812s] In file included from [01m[K/usr/include/c++/9/algorithm:62[m[K,
+[1.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:18[m[K,
+[1.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.812s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.812s] [01m[K/usr/include/c++/9/bits/stl_algo.h:3450:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)[m[K’
+[1.813s]  3450 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l)
+[1.813s]       |     [01;36m[K^~~[m[K
+[1.813s] [01m[K/usr/include/c++/9/bits/stl_algo.h:3450:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.813s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:48:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kfloat[m[K’
+[1.813s]    36 |             proc_ranges[i] = min(ranges[i], 3.0[01;36m[K)[m[K;
+[1.813s]       |                                                [01;36m[K^[m[K
+[1.814s] In file included from [01m[K/usr/include/c++/9/algorithm:62[m[K,
+[1.814s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:18[m[K,
+[1.814s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.814s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.814s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.814s]                  from [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1[m[K:
+[1.814s] [01m[K/usr/include/c++/9/bits/stl_algo.h:3456:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)[m[K’
+[1.814s]  3456 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l, _Compare __comp)
+[1.815s]       |     [01;36m[K^~~[m[K
+[1.815s] [01m[K/usr/include/c++/9/bits/stl_algo.h:3456:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.815s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:48:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kfloat[m[K’
+[1.815s]    36 |             proc_ranges[i] = min(ranges[i], 3.0[01;36m[K)[m[K;
+[1.815s]       |                                                [01;36m[K^[m[K
+[1.817s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:[m[K In member function ‘[01m[Kstd::pair<int, int> ReactiveGapFollow::find_max_gap(double*, int)[m[K’:
+[1.817s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:80:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.817s]    80 |         for (int i = 0; [01;35m[Ki < start_gaps.size()[m[K; i++) {
+[1.817s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[1.819s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:[m[K In member function ‘[01m[Kvoid ReactiveGapFollow::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[1.819s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:115:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+[1.819s]   115 |         [01;31m[Kauto[m[K drive = ackermann_msgs::msg::AckermannDriveStamped();
+[1.819s]       |         [01;31m[K^~~~[m[K
+[1.821s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:116:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrive[m[K’ was not declared in this scope
+[1.821s]   116 |         [01;31m[Kdrive[m[K.drive.steering_angle = data.angle_min + data.angle_increment * best_point;
+[1.821s]       |         [01;31m[K^~~~~[m[K
+[1.823s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:116:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope
+[1.823s]   116 |         drive.drive.steering_angle = [01;31m[Kdata[m[K.angle_min + data.angle_increment * best_point;
+[1.823s]       |                                      [01;31m[K^~~~[m[K
+[1.823s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:118:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstSharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdrive[m[K’
+[1.823s]   118 |         drive.drive.speed = M_PI - abs(msg.[01;31m[Kdrive[m[K.steering_angle);
+[1.824s]       |                                            [01;31m[K^~~~~[m[K
+[1.824s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:[m[K In member function ‘[01m[Kint ReactiveGapFollow::find_best_point(double, double, double*)[m[K’:
+[1.824s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:124:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kranges[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.824s]   124 |     int find_best_point(double start_i, double end_i, [01;35m[Kdouble* ranges[m[K) {
+[1.824s]       |                                                       [01;35m[K~~~~~~~~^~~~~~[m[K
+[3.957s] make[2]: *** [CMakeFiles/rgf.dir/build.make:63: CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o] Error 1
+[3.957s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgf.dir/all] Error 2
+[3.957s] make: *** [Makefile:141: all] Error 2
+[3.960s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow -- -j4 -l4

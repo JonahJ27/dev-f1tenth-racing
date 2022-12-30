@@ -1,0 +1,35 @@
+running egg_info
+creating build/gap_follow/gap_follow.egg-info
+writing build/gap_follow/gap_follow.egg-info/PKG-INFO
+writing dependency_links to build/gap_follow/gap_follow.egg-info/dependency_links.txt
+writing entry points to build/gap_follow/gap_follow.egg-info/entry_points.txt
+writing requirements to build/gap_follow/gap_follow.egg-info/requires.txt
+writing top-level names to build/gap_follow/gap_follow.egg-info/top_level.txt
+writing manifest file 'build/gap_follow/gap_follow.egg-info/SOURCES.txt'
+reading manifest file 'build/gap_follow/gap_follow.egg-info/SOURCES.txt'
+writing manifest file 'build/gap_follow/gap_follow.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/build
+creating /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/build/lib
+creating /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/build/lib/gap_follow
+copying gap_follow/reactive_gap_follow.py -> /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/build/lib/gap_follow
+copying gap_follow/__init__.py -> /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/build/lib/gap_follow
+running install
+running install_lib
+creating /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow
+copying /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/build/lib/gap_follow/reactive_gap_follow.py -> /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow
+copying /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/build/lib/gap_follow/__init__.py -> /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow
+byte-compiling /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow/reactive_gap_follow.py to reactive_gap_follow.cpython-38.pyc
+byte-compiling /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/share/ament_index
+creating /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/share/ament_index/resource_index
+creating /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/share/ament_index/resource_index/packages
+copying resource/gap_follow -> /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/share/ament_index/resource_index/packages
+copying package.xml -> /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/share/gap_follow
+running install_egg_info
+Copying build/gap_follow/gap_follow.egg-info to /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow-0.0.0-py3.8.egg-info
+running install_scripts
+Installing reactive_gap_follow script to /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/gap_follow
+writing list of installed files to '/home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/install.log'

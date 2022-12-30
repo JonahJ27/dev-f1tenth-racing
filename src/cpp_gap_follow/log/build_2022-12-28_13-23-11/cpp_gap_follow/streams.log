@@ -1,0 +1,26 @@
+[0.021s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow -- -j4 -l4
+[0.087s] [35m[1mScanning dependencies of target rgf[0m
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o[0m
+[7.176s] [100%] [32m[1mLinking CXX executable rgf[0m
+[7.788s] [100%] Built target rgf
+[7.805s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow -- -j4 -l4
+[7.859s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow
+[7.884s] -- Install configuration: ""
+[7.885s] -- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/lib/cpp_gap_follow/rgf
+[7.890s] -- Set runtime path of "/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/lib/cpp_gap_follow/rgf" to ""
+[7.890s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/ament_index/resource_index/package_run_dependencies/cpp_gap_follow
+[7.890s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/ament_index/resource_index/parent_prefix_path/cpp_gap_follow
+[7.891s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/ament_prefix_path.sh
+[7.891s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/ament_prefix_path.dsv
+[7.891s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/path.sh
+[7.891s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/path.dsv
+[7.891s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.bash
+[7.892s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.sh
+[7.892s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.zsh
+[7.892s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.dsv
+[7.892s] -- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/package.dsv
+[7.892s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/ament_index/resource_index/packages/cpp_gap_follow
+[7.893s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/cmake/cpp_gap_followConfig.cmake
+[7.893s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/cmake/cpp_gap_followConfig-version.cmake
+[7.893s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/package.xml
+[7.898s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow

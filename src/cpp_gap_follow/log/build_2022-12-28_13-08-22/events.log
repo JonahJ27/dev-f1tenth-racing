@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.001321] (cpp_gap_follow) JobQueued: {'identifier': 'cpp_gap_follow', 'dependencies': OrderedDict()}
+[0.001401] (cpp_gap_follow) JobStarted: {'identifier': 'cpp_gap_follow'}
+[0.018154] (cpp_gap_follow) JobProgress: {'identifier': 'cpp_gap_follow', 'progress': 'cmake'}
+[0.019261] (cpp_gap_follow) JobProgress: {'identifier': 'cpp_gap_follow', 'progress': 'build'}
+[0.020448] (cpp_gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow', '--', '-j4', '-l4'], 'cwd': '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jjaffe27'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jjaffe27'), ('OLDPWD', '/home/jjaffe27/dev_f1tenth_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1585'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2217'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jjaffe27'), ('JOURNAL_STREAM', '8:45577'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jjaffe27'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jjaffe27-XPS-13-9350:@/tmp/.ICE-unix/1799,unix/jjaffe27-XPS-13-9350:/tmp/.ICE-unix/1799'), ('INVOCATION_ID', 'dca1f79ae49f4241b93f4c224ad23122'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4f725b92-71f7-4d46-a8d7-3613ec615ef9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.088330] (cpp_gap_follow) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rgf\x1b[0m\n'}
+[0.099615] (-) TimerEvent: {}
+[0.132695] (cpp_gap_follow) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o\x1b[0m\n'}
+[0.199772] (-) TimerEvent: {}
+[0.300237] (-) TimerEvent: {}
+[0.400653] (-) TimerEvent: {}
+[0.501110] (-) TimerEvent: {}
+[0.601463] (-) TimerEvent: {}
+[0.701813] (-) TimerEvent: {}
+[0.802159] (-) TimerEvent: {}
+[0.902507] (-) TimerEvent: {}
+[1.002843] (-) TimerEvent: {}
+[1.103186] (-) TimerEvent: {}
+[1.203528] (-) TimerEvent: {}
+[1.303868] (-) TimerEvent: {}
+[1.404223] (-) TimerEvent: {}
+[1.504574] (-) TimerEvent: {}
+[1.604929] (-) TimerEvent: {}
+[1.705256] (-) TimerEvent: {}
+[1.805592] (-) TimerEvent: {}
+[1.815527] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble* ReactiveGapFollow::preprocess_lidar(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.816179] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmin(__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type&, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.816639] (cpp_gap_follow) StderrLine: {'line': b'   36 |             proc_ranges[i] = std::min(ranges[i], 3\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.816813] (cpp_gap_follow) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.816975] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:62\x1b[m\x1b[K,\n'}
+[1.817144] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.817295] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.817439] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:198:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.817588] (cpp_gap_follow) StderrLine: {'line': b'  198 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b)\n'}
+[1.817737] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.817882] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:198:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.818042] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[1.818209] (cpp_gap_follow) StderrLine: {'line': b'   36 |             proc_ranges[i] = std::min(ranges[i], 3\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.818352] (cpp_gap_follow) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.818499] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:62\x1b[m\x1b[K,\n'}
+[1.818645] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.818789] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.818942] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:246:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.819079] (cpp_gap_follow) StderrLine: {'line': b'  246 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b, _Compare __comp)\n'}
+[1.819223] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.819362] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:246:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.819494] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[1.819647] (cpp_gap_follow) StderrLine: {'line': b'   36 |             proc_ranges[i] = std::min(ranges[i], 3\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.819776] (cpp_gap_follow) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.819909] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:62\x1b[m\x1b[K,\n'}
+[1.820053] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[1.820197] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.820343] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.820485] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.820631] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.820773] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algo.h:3450:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.820929] (cpp_gap_follow) StderrLine: {'line': b' 3450 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(initializer_list<_Tp> __l)\n'}
+[1.821094] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.821247] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algo.h:3450:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.821392] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.821560] (cpp_gap_follow) StderrLine: {'line': b'   36 |             proc_ranges[i] = std::min(ranges[i], 3\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.821712] (cpp_gap_follow) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.821852] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:62\x1b[m\x1b[K,\n'}
+[1.821994] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[1.822140] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.822278] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.822416] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.822555] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.822691] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algo.h:3456:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.822836] (cpp_gap_follow) StderrLine: {'line': b' 3456 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(initializer_list<_Tp> __l, _Compare __comp)\n'}
+[1.822973] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.823110] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algo.h:3456:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.823252] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:36:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.823395] (cpp_gap_follow) StderrLine: {'line': b'   36 |             proc_ranges[i] = std::min(ranges[i], 3\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.823538] (cpp_gap_follow) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.824516] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<int, int> ReactiveGapFollow::find_max_gap(double*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.824904] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbegin(double*&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.826214] (cpp_gap_follow) StderrLine: {'line': b'   59 |         double threshold = max_element(begin(free_space_ranges\x1b[01;31m\x1b[K)\x1b[m\x1b[K, end(free_space_ranges)) - 0.5;\n'}
+[1.826381] (cpp_gap_follow) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.826520] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/utility:76\x1b[m\x1b[K,\n'}
+[1.826652] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[1.826783] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.826929] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.827062] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.827194] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/initializer_list:89:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp* std::begin(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.827326] (cpp_gap_follow) StderrLine: {'line': b'   89 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(initializer_list<_Tp> __ils) noexcept\n'}
+[1.827455] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.827584] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/initializer_list:89:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.827714] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.827846] (cpp_gap_follow) StderrLine: {'line': b'   59 |         double threshold = max_element(begin(free_space_ranges\x1b[01;36m\x1b[K)\x1b[m\x1b[K, end(free_space_ranges)) - 0.5;\n'}
+[1.827983] (cpp_gap_follow) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.828112] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[1.828241] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.828371] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.828500] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.828629] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.828759] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.828887] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.829016] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.829172] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:48:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(_Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.829317] (cpp_gap_follow) StderrLine: {'line': b'   48 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(_Container& __cont) -> decltype(__cont.begin())\n'}
+[1.829447] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.829576] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:48:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.829707] (cpp_gap_follow) StderrLine: {'line': b'/usr/include/c++/9/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(_Container&) [with _Container = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.829838] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:\x1b[m\x1b[K   required from here\n'}
+[1.829973] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:48:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kbegin\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__cont\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kdouble*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.830105] (cpp_gap_follow) StderrLine: {'line': b'   48 |     begin(_Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.begin\x1b[m\x1b[K())\n'}
+[1.830235] (cpp_gap_follow) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.830487] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:58:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(const _Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.830667] (cpp_gap_follow) StderrLine: {'line': b'   58 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const _Container& __cont) -> decltype(__cont.begin())\n'}
+[1.830848] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.830989] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:58:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.831122] (cpp_gap_follow) StderrLine: {'line': b'/usr/include/c++/9/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(const _Container&) [with _Container = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.831362] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:\x1b[m\x1b[K   required from here\n'}
+[1.831499] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:58:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kbegin\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__cont\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kdouble* const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.831635] (cpp_gap_follow) StderrLine: {'line': b'   58 |     begin(const _Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.begin\x1b[m\x1b[K())\n'}
+[1.831764] (cpp_gap_follow) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.831894] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:87:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::begin(_Tp (&)[_Nm])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.832033] (cpp_gap_follow) StderrLine: {'line': b'   87 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(_Tp (&__arr)[_Nm]) noexcept\n'}
+[1.832160] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.832289] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:87:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.832439] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Tp [_Nm]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.832579] (cpp_gap_follow) StderrLine: {'line': b'   59 |         double threshold = max_element(begin(free_space_ranges\x1b[01;36m\x1b[K)\x1b[m\x1b[K, end(free_space_ranges)) - 0.5;\n'}
+[1.832750] (cpp_gap_follow) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.832851] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[1.832928] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.833100] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.833276] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.833370] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.833448] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.833522] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.833596] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.833672] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:104:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp* std::begin(std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.833752] (cpp_gap_follow) StderrLine: {'line': b'  104 |   template<typename _Tp> _Tp* \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(valarray<_Tp>&);\n'}
+[1.833860] (cpp_gap_follow) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.833939] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:104:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.834028] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.834132] (cpp_gap_follow) StderrLine: {'line': b'   59 |         double threshold = max_element(begin(free_space_ranges\x1b[01;36m\x1b[K)\x1b[m\x1b[K, end(free_space_ranges)) - 0.5;\n'}
+[1.834216] (cpp_gap_follow) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.834332] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[1.834493] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.834637] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.834723] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.834799] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.834874] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.834948] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.835022] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.835097] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:105:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp* std::begin(const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.835188] (cpp_gap_follow) StderrLine: {'line': b'  105 |   template<typename _Tp> const _Tp* \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const valarray<_Tp>&);\n'}
+[1.835263] (cpp_gap_follow) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.835337] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:105:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.835412] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.835495] (cpp_gap_follow) StderrLine: {'line': b'   59 |         double threshold = max_element(begin(free_space_ranges\x1b[01;36m\x1b[K)\x1b[m\x1b[K, end(free_space_ranges)) - 0.5;\n'}
+[1.835570] (cpp_gap_follow) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.835657] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kend(double*&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.835749] (cpp_gap_follow) StderrLine: {'line': b'   59 |         double threshold = max_element(begin(free_space_ranges), end(free_space_ranges\x1b[01;31m\x1b[K)\x1b[m\x1b[K) - 0.5;\n'}
+[1.835968] (cpp_gap_follow) StderrLine: {'line': b'      |                                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.836093] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/utility:76\x1b[m\x1b[K,\n'}
+[1.836181] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[1.836261] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.836337] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.836423] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.836501] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/initializer_list:99:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp* std::end(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.836579] (cpp_gap_follow) StderrLine: {'line': b'   99 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(initializer_list<_Tp> __ils) noexcept\n'}
+[1.836653] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.836728] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/initializer_list:99:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.836805] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.836882] (cpp_gap_follow) StderrLine: {'line': b'   59 |         double threshold = max_element(begin(free_space_ranges), end(free_space_ranges\x1b[01;36m\x1b[K)\x1b[m\x1b[K) - 0.5;\n'}
+[1.836958] (cpp_gap_follow) StderrLine: {'line': b'      |                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.837066] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[1.837150] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.837224] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.837299] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.837373] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.837449] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.837523] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.837609] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.837690] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:68:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.end()) std::end(_Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.837768] (cpp_gap_follow) StderrLine: {'line': b'   68 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(_Container& __cont) -> decltype(__cont.end())\n'}
+[1.837842] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.837915] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:68:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.837989] (cpp_gap_follow) StderrLine: {'line': b'/usr/include/c++/9/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.end()) std::end(_Container&) [with _Container = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.838065] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:\x1b[m\x1b[K   required from here\n'}
+[1.838140] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:68:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__cont\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kdouble*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.838219] (cpp_gap_follow) StderrLine: {'line': b'   68 |     end(_Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.end\x1b[m\x1b[K())\n'}
+[1.838444] (cpp_gap_follow) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.838566] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:78:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.end()) std::end(const _Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.838652] (cpp_gap_follow) StderrLine: {'line': b'   78 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(const _Container& __cont) -> decltype(__cont.end())\n'}
+[1.838730] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.838805] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:78:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.838881] (cpp_gap_follow) StderrLine: {'line': b'/usr/include/c++/9/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.end()) std::end(const _Container&) [with _Container = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.838969] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:\x1b[m\x1b[K   required from here\n'}
+[1.839045] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:78:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__cont\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kdouble* const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.839124] (cpp_gap_follow) StderrLine: {'line': b'   78 |     end(const _Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.end\x1b[m\x1b[K())\n'}
+[1.839205] (cpp_gap_follow) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.839281] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:97:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::end(_Tp (&)[_Nm])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.839357] (cpp_gap_follow) StderrLine: {'line': b'   97 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(_Tp (&__arr)[_Nm]) noexcept\n'}
+[1.839431] (cpp_gap_follow) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.839505] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:97:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.839581] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Tp [_Nm]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.839660] (cpp_gap_follow) StderrLine: {'line': b'   59 |         double threshold = max_element(begin(free_space_ranges), end(free_space_ranges\x1b[01;36m\x1b[K)\x1b[m\x1b[K) - 0.5;\n'}
+[1.839736] (cpp_gap_follow) StderrLine: {'line': b'      |                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.839812] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[1.839888] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.839963] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.840037] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.840112] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.840186] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.840261] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.840335] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.840484] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:106:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp* std::end(std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.840697] (cpp_gap_follow) StderrLine: {'line': b'  106 |   template<typename _Tp> _Tp* \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(valarray<_Tp>&);\n'}
+[1.840839] (cpp_gap_follow) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.840969] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:106:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.841108] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.841190] (cpp_gap_follow) StderrLine: {'line': b'   59 |         double threshold = max_element(begin(free_space_ranges), end(free_space_ranges\x1b[01;36m\x1b[K)\x1b[m\x1b[K) - 0.5;\n'}
+[1.841267] (cpp_gap_follow) StderrLine: {'line': b'      |                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.841342] (cpp_gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[1.841417] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.841493] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.841567] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.841642] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.841716] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.841790] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.841865] (cpp_gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:1\x1b[m\x1b[K:\n'}
+[1.841938] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:107:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp* std::end(const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.842014] (cpp_gap_follow) StderrLine: {'line': b'  107 |   template<typename _Tp> const _Tp* \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(const valarray<_Tp>&);\n'}
+[1.842088] (cpp_gap_follow) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.842163] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:107:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.842238] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:59:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.842316] (cpp_gap_follow) StderrLine: {'line': b'   59 |         double threshold = max_element(begin(free_space_ranges), end(free_space_ranges\x1b[01;36m\x1b[K)\x1b[m\x1b[K) - 0.5;\n'}
+[1.842400] (cpp_gap_follow) StderrLine: {'line': b'      |                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.842541] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:73:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[1.842644] (cpp_gap_follow) StderrLine: {'line': b'   73 |         if (\x1b[01;31m\x1b[Kstart_gaps.size\x1b[m\x1b[K > end_gaps.size) {\n'}
+[1.842779] (cpp_gap_follow) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.842993] (cpp_gap_follow) StderrLine: {'line': b'      |                            \x1b[32m\x1b[K()\x1b[m\x1b[K\n'}
+[1.843128] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:73:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[1.843263] (cpp_gap_follow) StderrLine: {'line': b'   73 |         if (start_gaps.size > \x1b[01;31m\x1b[Kend_gaps.size\x1b[m\x1b[K) {\n'}
+[1.843393] (cpp_gap_follow) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.843521] (cpp_gap_follow) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K()\x1b[m\x1b[K\n'}
+[1.843650] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:80:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[1.843784] (cpp_gap_follow) StderrLine: {'line': b'   80 |         for (int i = 0; i < \x1b[01;31m\x1b[Kstart_gaps.size\x1b[m\x1b[K; i++) {\n'}
+[1.843912] (cpp_gap_follow) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.844040] (cpp_gap_follow) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K()\x1b[m\x1b[K\n'}
+[1.844168] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReactiveGapFollow::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.844310] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:94:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscan_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.844446] (cpp_gap_follow) StderrLine: {'line': b'   94 |         int lasers = int((\x1b[01;31m\x1b[Kscan_msg\x1b[m\x1b[K->angle_max - scan_msg->angle_min) / scan_msg->angle_increment) + 1;\n'}
+[1.844578] (cpp_gap_follow) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.844707] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:98:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.844838] (cpp_gap_follow) StderrLine: {'line': b'   98 |         \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K closest_dist = min_element(begin(proc_ranges), end(proc_ranges));\n'}
+[1.844967] (cpp_gap_follow) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.845118] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:100:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclosest_dist\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.845257] (cpp_gap_follow) StderrLine: {'line': b'  100 |         auto itr = find(proc_ranges, proc_ranges + lasers, \x1b[01;31m\x1b[Kclosest_dist\x1b[m\x1b[K);\n'}
+[1.845387] (cpp_gap_follow) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.845517] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:104:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.845648] (cpp_gap_follow) StderrLine: {'line': b'  104 |             i <= int(ceil(30.0 / closest_dist) + closest_idx; i++)\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[1.845778] (cpp_gap_follow) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.845907] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:111:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kself\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.846117] (cpp_gap_follow) StderrLine: {'line': b'  111 |         pair<int, int> gap = \x1b[01;31m\x1b[Kself\x1b[m\x1b[K.find_max_gap(proc_ranges)\n'}
+[1.846211] (cpp_gap_follow) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.846289] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:116:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdrive\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.846374] (cpp_gap_follow) StderrLine: {'line': b'  116 |         \x1b[01;31m\x1b[Kdrive\x1b[m\x1b[K.drive.steering_angle = data.angle_min + data.angle_increment * best_point;\n'}
+[1.846450] (cpp_gap_follow) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.846524] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:116:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.846600] (cpp_gap_follow) StderrLine: {'line': b'  116 |         drive.drive.steering_angle = \x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.angle_min + data.angle_increment * best_point;\n'}
+[1.846674] (cpp_gap_follow) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.846760] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:116:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbest_point\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfind_best_point\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.847107] (cpp_gap_follow) StderrLine: {'line': b'  116 |         drive.drive.steering_angle = data.angle_min + data.angle_increment * \x1b[01;31m\x1b[Kbest_point\x1b[m\x1b[K;\n'}
+[1.847363] (cpp_gap_follow) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.847530] (cpp_gap_follow) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[Kfind_best_point\x1b[m\x1b[K\n'}
+[1.847702] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:118:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst ConstSharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdrive\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.847864] (cpp_gap_follow) StderrLine: {'line': b'  118 |         msg.\x1b[01;31m\x1b[Kdrive\x1b[m\x1b[K.speed = numbers::pi - abs(msg.drive.steering_angle);\n'}
+[1.847996] (cpp_gap_follow) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.848127] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:118:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knumbers\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.848260] (cpp_gap_follow) StderrLine: {'line': b'  118 |         msg.drive.speed = \x1b[01;31m\x1b[Knumbers\x1b[m\x1b[K::pi - abs(msg.drive.steering_angle);\n'}
+[1.848388] (cpp_gap_follow) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.848517] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:118:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst ConstSharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdrive\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.848662] (cpp_gap_follow) StderrLine: {'line': b'  118 |         msg.drive.speed = numbers::pi - abs(msg.\x1b[01;31m\x1b[Kdrive\x1b[m\x1b[K.steering_angle);\n'}
+[1.848790] (cpp_gap_follow) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.848922] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:111:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kgap\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.849076] (cpp_gap_follow) StderrLine: {'line': b'  111 |         pair<int, int> \x1b[01;35m\x1b[Kgap\x1b[m\x1b[K = self.find_max_gap(proc_ranges)\n'}
+[1.849211] (cpp_gap_follow) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.849342] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ReactiveGapFollow::find_best_point(double, double, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.849474] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:124:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kranges\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.849605] (cpp_gap_follow) StderrLine: {'line': b'  124 |     int find_best_point(double start_i, double end_i, \x1b[01;35m\x1b[Kdouble* ranges\x1b[m\x1b[K) {\n'}
+[1.849734] (cpp_gap_follow) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.905695] (-) TimerEvent: {}
+[2.006036] (-) TimerEvent: {}
+[2.106374] (-) TimerEvent: {}
+[2.206713] (-) TimerEvent: {}
+[2.307102] (-) TimerEvent: {}
+[2.407453] (-) TimerEvent: {}
+[2.507820] (-) TimerEvent: {}
+[2.608153] (-) TimerEvent: {}
+[2.708606] (-) TimerEvent: {}
+[2.808958] (-) TimerEvent: {}
+[2.909372] (-) TimerEvent: {}
+[3.009730] (-) TimerEvent: {}
+[3.110073] (-) TimerEvent: {}
+[3.210415] (-) TimerEvent: {}
+[3.310780] (-) TimerEvent: {}
+[3.411124] (-) TimerEvent: {}
+[3.511468] (-) TimerEvent: {}
+[3.611814] (-) TimerEvent: {}
+[3.712155] (-) TimerEvent: {}
+[3.812508] (-) TimerEvent: {}
+[3.912859] (-) TimerEvent: {}
+[3.987807] (cpp_gap_follow) StderrLine: {'line': b'make[2]: *** [CMakeFiles/rgf.dir/build.make:63: CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o] Error 1\n'}
+[3.988164] (cpp_gap_follow) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgf.dir/all] Error 2\n'}
+[3.988515] (cpp_gap_follow) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.991443] (cpp_gap_follow) CommandEnded: {'returncode': 2}
+[4.013079] (-) TimerEvent: {}
+[4.043637] (cpp_gap_follow) JobEnded: {'identifier': 'cpp_gap_follow', 'rc': 2}
+[4.054338] (-) EventReactorShutdown: {}

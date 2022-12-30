@@ -1,0 +1,92 @@
+[2.621s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.622s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc2903389a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc2903389a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc290338f10>)
+[3.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.016s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.016s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.016s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.016s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jjaffe27/dev_f1tenth_ws/src/pursuit'
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.120s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'pursuit'
+[3.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.432s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install
+[3.440s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install
+[3.452s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jjaffe27/dev_f1tenth_ws/src/path/install
+[3.465s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 264 installed packages in /opt/ros/foxy
+[3.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.469s] Level 5:colcon.colcon_core.verb:set package 'pursuit' build argument 'cmake_args' from command line to 'None'
+[4.470s] Level 5:colcon.colcon_core.verb:set package 'pursuit' build argument 'cmake_target' from command line to 'None'
+[4.470s] Level 5:colcon.colcon_core.verb:set package 'pursuit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.470s] Level 5:colcon.colcon_core.verb:set package 'pursuit' build argument 'cmake_clean_cache' from command line to 'False'
+[4.470s] Level 5:colcon.colcon_core.verb:set package 'pursuit' build argument 'cmake_clean_first' from command line to 'False'
+[4.470s] Level 5:colcon.colcon_core.verb:set package 'pursuit' build argument 'cmake_force_configure' from command line to 'False'
+[4.470s] Level 5:colcon.colcon_core.verb:set package 'pursuit' build argument 'ament_cmake_args' from command line to 'None'
+[4.470s] Level 5:colcon.colcon_core.verb:set package 'pursuit' build argument 'catkin_cmake_args' from command line to 'None'
+[4.470s] Level 5:colcon.colcon_core.verb:set package 'pursuit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.471s] DEBUG:colcon.colcon_core.verb:Building package 'pursuit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit', 'merge_install': False, 'path': '/home/jjaffe27/dev_f1tenth_ws/src/pursuit', 'symlink_install': False, 'test_result_base': None}
+[4.474s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.512s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.512s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jjaffe27/dev_f1tenth_ws/src/pursuit' with build type 'ament_python'
+[4.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('pursuit', 'ament_prefix_path')
+[4.577s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/pursuit/hook/ament_prefix_path.ps1'
+[4.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/pursuit/hook/ament_prefix_path.dsv'
+[4.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/pursuit/hook/ament_prefix_path.sh'
+[4.599s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.887s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jjaffe27/dev_f1tenth_ws/src/pursuit'
+[5.898s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.898s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/pursuit': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pursuit build --build-base /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit --record /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/install.log --single-version-externally-managed
+[12.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/pursuit' returned '0': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pursuit build --build-base /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit --record /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/install.log --single-version-externally-managed
+[12.156s] Level 1:colcon.colcon_core.environment:checking '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit' for CMake module files
+[12.160s] Level 1:colcon.colcon_core.environment:checking '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit' for CMake config files
+[12.162s] Level 1:colcon.colcon_core.environment:checking '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib'
+[12.163s] Level 1:colcon.colcon_core.environment:checking '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/bin'
+[12.164s] Level 1:colcon.colcon_core.environment:checking '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/pkgconfig/pursuit.pc'
+[12.164s] Level 1:colcon.colcon_core.environment:checking '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages'
+[12.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('pursuit', 'pythonpath')
+[12.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/pursuit/hook/pythonpath.ps1'
+[12.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/pursuit/hook/pythonpath.dsv'
+[12.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/pursuit/hook/pythonpath.sh'
+[12.179s] Level 1:colcon.colcon_core.environment:checking '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/bin'
+[12.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pursuit)
+[12.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/pursuit/package.ps1'
+[12.191s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/pursuit/package.dsv'
+[12.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/pursuit/package.sh'
+[12.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/pursuit/package.bash'
+[12.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/pursuit/package.zsh'
+[12.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/share/colcon-core/packages/pursuit)
+[12.204s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.205s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.240s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.240s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.240s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.584s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.589s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/local_setup.ps1'
+[12.596s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/_local_setup_util_ps1.py'
+[12.612s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/setup.ps1'
+[12.616s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/local_setup.sh'
+[12.617s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/_local_setup_util_sh.py'
+[12.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/setup.sh'
+[12.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/local_setup.bash'
+[12.689s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/setup.bash'
+[12.751s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/local_setup.zsh'
+[12.754s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/setup.zsh'

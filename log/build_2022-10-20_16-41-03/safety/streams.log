@@ -1,0 +1,24 @@
+[2.318s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/safety': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/safety build --build-base /home/jjaffe27/dev_f1tenth_ws/build/safety/build install --prefix /home/jjaffe27/dev_f1tenth_ws/install/safety --record /home/jjaffe27/dev_f1tenth_ws/build/safety/install.log --single-version-externally-managed
+[3.073s] running egg_info
+[3.075s] writing ../../build/safety/safety.egg-info/PKG-INFO
+[3.079s] writing dependency_links to ../../build/safety/safety.egg-info/dependency_links.txt
+[3.079s] writing entry points to ../../build/safety/safety.egg-info/entry_points.txt
+[3.079s] writing requirements to ../../build/safety/safety.egg-info/requires.txt
+[3.080s] writing top-level names to ../../build/safety/safety.egg-info/top_level.txt
+[3.213s] reading manifest file '../../build/safety/safety.egg-info/SOURCES.txt'
+[3.216s] writing manifest file '../../build/safety/safety.egg-info/SOURCES.txt'
+[3.217s] running build
+[3.218s] running build_py
+[3.219s] copying safety/aeb.py -> /home/jjaffe27/dev_f1tenth_ws/build/safety/build/lib/safety
+[3.220s] running install
+[3.222s] running install_lib
+[3.226s] copying /home/jjaffe27/dev_f1tenth_ws/build/safety/build/lib/safety/aeb.py -> /home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages/safety
+[3.228s] byte-compiling /home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages/safety/aeb.py to aeb.cpython-38.pyc
+[3.232s] running install_data
+[3.239s] running install_egg_info
+[3.252s] removing '/home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages/safety-0.0.0-py3.8.egg-info' (and everything under it)
+[3.252s] Copying ../../build/safety/safety.egg-info to /home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages/safety-0.0.0-py3.8.egg-info
+[3.256s] running install_scripts
+[3.314s] Installing aeb script to /home/jjaffe27/dev_f1tenth_ws/install/safety/lib/safety
+[3.315s] writing list of installed files to '/home/jjaffe27/dev_f1tenth_ws/build/safety/install.log'
+[3.387s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/safety' returned '0': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/install/safety/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/safety build --build-base /home/jjaffe27/dev_f1tenth_ws/build/safety/build install --prefix /home/jjaffe27/dev_f1tenth_ws/install/safety --record /home/jjaffe27/dev_f1tenth_ws/build/safety/install.log --single-version-externally-managed

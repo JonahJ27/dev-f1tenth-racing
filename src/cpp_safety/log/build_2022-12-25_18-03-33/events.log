@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000311] (cpp_safety) JobQueued: {'identifier': 'cpp_safety', 'dependencies': OrderedDict()}
+[0.000420] (cpp_safety) JobStarted: {'identifier': 'cpp_safety'}
+[0.088718] (cpp_safety) JobProgress: {'identifier': 'cpp_safety', 'progress': 'cmake'}
+[0.088968] (-) TimerEvent: {}
+[0.093559] (cpp_safety) JobProgress: {'identifier': 'cpp_safety', 'progress': 'build'}
+[0.101720] (cpp_safety) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety', '--', '-j4', '-l4'], 'cwd': '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jjaffe27'), ('SSH_AGENT_PID', '1770'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jjaffe27'), ('OLDPWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '158042'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jjaffe27'), ('JOURNAL_STREAM', '8:46146'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jjaffe27'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jjaffe27-XPS-13-9350:@/tmp/.ICE-unix/1811,unix/jjaffe27-XPS-13-9350:/tmp/.ICE-unix/1811'), ('INVOCATION_ID', '531175f25b7b464a87f42a85895005c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a2de6328-7af3-4dc4-afe5-816495eb1fc9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety:/opt/ros/foxy')]), 'shell': False}
+[0.189273] (-) TimerEvent: {}
+[0.291429] (-) TimerEvent: {}
+[0.307778] (cpp_safety) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target safety\x1b[0m\n'}
+[0.401380] (-) TimerEvent: {}
+[0.407532] (cpp_safety) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/safety.dir/src/aeb.cpp.o\x1b[0m\n'}
+[0.501496] (-) TimerEvent: {}
+[0.602726] (-) TimerEvent: {}
+[0.703140] (-) TimerEvent: {}
+[0.803935] (-) TimerEvent: {}
+[0.904384] (-) TimerEvent: {}
+[1.004799] (-) TimerEvent: {}
+[1.105231] (-) TimerEvent: {}
+[1.205735] (-) TimerEvent: {}
+[1.307040] (-) TimerEvent: {}
+[1.407487] (-) TimerEvent: {}
+[1.507917] (-) TimerEvent: {}
+[1.608344] (-) TimerEvent: {}
+[1.708821] (-) TimerEvent: {}
+[1.809209] (-) TimerEvent: {}
+[1.909640] (-) TimerEvent: {}
+[2.010081] (-) TimerEvent: {}
+[2.110617] (-) TimerEvent: {}
+[2.211186] (-) TimerEvent: {}
+[2.311776] (-) TimerEvent: {}
+[2.412387] (-) TimerEvent: {}
+[2.512815] (-) TimerEvent: {}
+[2.613224] (-) TimerEvent: {}
+[2.713668] (-) TimerEvent: {}
+[2.814328] (-) TimerEvent: {}
+[2.916012] (-) TimerEvent: {}
+[3.019563] (-) TimerEvent: {}
+[3.124630] (-) TimerEvent: {}
+[3.225150] (-) TimerEvent: {}
+[3.325649] (-) TimerEvent: {}
+[3.426144] (-) TimerEvent: {}
+[3.526600] (-) TimerEvent: {}
+[3.627059] (-) TimerEvent: {}
+[3.727748] (-) TimerEvent: {}
+[3.829410] (-) TimerEvent: {}
+[3.930463] (-) TimerEvent: {}
+[4.017671] (cpp_safety) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.018347] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.018575] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.018748] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[4.018901] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.019052] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.019207] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[4.019428] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.019730] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.020016] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.020240] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:1\x1b[m\x1b[K:\n'}
+[4.020442] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LaserScanAEB::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.020686] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:58:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kget_c_string(double&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.020925] (cpp_safety) StderrLine: {'line': b'   58 |           \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), minTTC);\n'}
+[4.021220] (cpp_safety) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.021503] (cpp_safety) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:36\x1b[m\x1b[K,\n'}
+[4.021708] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.021870] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.022024] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[4.022168] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.022311] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.022456] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[4.022600] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.022746] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.022890] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.023034] (cpp_safety) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:1\x1b[m\x1b[K:\n'}
+[4.023184] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst char* rclcpp::get_c_string(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.025242] (cpp_safety) StderrLine: {'line': b'  296 | \x1b[01;36m\x1b[Kget_c_string\x1b[m\x1b[K(const char * string_in);\n'}
+[4.025801] (cpp_safety) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.026361] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.026880] (cpp_safety) StderrLine: {'line': b'  296 | get_c_string(\x1b[01;36m\x1b[Kconst char * string_in\x1b[m\x1b[K);\n'}
+[4.027407] (cpp_safety) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.028169] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst char* rclcpp::get_c_string(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.028672] (cpp_safety) StderrLine: {'line': b'  305 | \x1b[01;36m\x1b[Kget_c_string\x1b[m\x1b[K(const std::string & string_in);\n'}
+[4.029173] (cpp_safety) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.029747] (cpp_safety) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.030419] (cpp_safety) StderrLine: {'line': b'  305 | get_c_string(\x1b[01;36m\x1b[Kconst std::string & string_in\x1b[m\x1b[K);\n'}
+[4.032959] (-) TimerEvent: {}
+[4.033609] (cpp_safety) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.130882] (-) TimerEvent: {}
+[4.231576] (-) TimerEvent: {}
+[4.332267] (-) TimerEvent: {}
+[4.432945] (-) TimerEvent: {}
+[4.533410] (-) TimerEvent: {}
+[4.633815] (-) TimerEvent: {}
+[4.734243] (-) TimerEvent: {}
+[4.837493] (-) TimerEvent: {}
+[4.939536] (-) TimerEvent: {}
+[5.040245] (-) TimerEvent: {}
+[5.141200] (-) TimerEvent: {}
+[5.242239] (-) TimerEvent: {}
+[5.343384] (-) TimerEvent: {}
+[5.443815] (-) TimerEvent: {}
+[5.544238] (-) TimerEvent: {}
+[5.644658] (-) TimerEvent: {}
+[5.745078] (-) TimerEvent: {}
+[5.845600] (-) TimerEvent: {}
+[5.946112] (-) TimerEvent: {}
+[6.046536] (-) TimerEvent: {}
+[6.146993] (-) TimerEvent: {}
+[6.247384] (-) TimerEvent: {}
+[6.347780] (-) TimerEvent: {}
+[6.448258] (-) TimerEvent: {}
+[6.548706] (-) TimerEvent: {}
+[6.649117] (-) TimerEvent: {}
+[6.749500] (-) TimerEvent: {}
+[6.849930] (-) TimerEvent: {}
+[6.952862] (-) TimerEvent: {}
+[7.053425] (-) TimerEvent: {}
+[7.154255] (-) TimerEvent: {}
+[7.254695] (-) TimerEvent: {}
+[7.355284] (-) TimerEvent: {}
+[7.455876] (-) TimerEvent: {}
+[7.556315] (-) TimerEvent: {}
+[7.656943] (-) TimerEvent: {}
+[7.757398] (-) TimerEvent: {}
+[7.857926] (-) TimerEvent: {}
+[7.958754] (-) TimerEvent: {}
+[8.059911] (-) TimerEvent: {}
+[8.160386] (-) TimerEvent: {}
+[8.265535] (-) TimerEvent: {}
+[8.366328] (-) TimerEvent: {}
+[8.466860] (-) TimerEvent: {}
+[8.567360] (-) TimerEvent: {}
+[8.667909] (-) TimerEvent: {}
+[8.768669] (-) TimerEvent: {}
+[8.869966] (-) TimerEvent: {}
+[8.970604] (-) TimerEvent: {}
+[9.071098] (-) TimerEvent: {}
+[9.171524] (-) TimerEvent: {}
+[9.271958] (-) TimerEvent: {}
+[9.275442] (cpp_safety) StderrLine: {'line': b'make[2]: *** [CMakeFiles/safety.dir/build.make:63: CMakeFiles/safety.dir/src/aeb.cpp.o] Error 1\n'}
+[9.275842] (cpp_safety) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/safety.dir/all] Error 2\n'}
+[9.276189] (cpp_safety) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[9.282858] (cpp_safety) CommandEnded: {'returncode': 2}
+[9.370187] (cpp_safety) JobEnded: {'identifier': 'cpp_safety', 'rc': 2}
+[9.372044] (-) TimerEvent: {}
+[9.392057] (-) EventReactorShutdown: {}

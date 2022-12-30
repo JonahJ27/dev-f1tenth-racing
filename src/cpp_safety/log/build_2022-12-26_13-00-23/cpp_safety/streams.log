@@ -1,0 +1,26 @@
+[0.039s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety -- -j4 -l4
+[0.191s] [35m[1mScanning dependencies of target safety[0m
+[0.275s] [ 50%] [32mBuilding CXX object CMakeFiles/safety.dir/src/aeb.cpp.o[0m
+[16.717s] [100%] [32m[1mLinking CXX executable safety[0m
+[17.364s] [100%] Built target safety
+[17.379s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety -- -j4 -l4
+[17.439s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety
+[17.452s] -- Install configuration: ""
+[17.453s] -- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/lib/cpp_safety/safety
+[17.462s] -- Set runtime path of "/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/lib/cpp_safety/safety" to ""
+[17.463s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/ament_index/resource_index/package_run_dependencies/cpp_safety
+[17.463s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/ament_index/resource_index/parent_prefix_path/cpp_safety
+[17.464s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/ament_prefix_path.sh
+[17.465s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/ament_prefix_path.dsv
+[17.466s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/path.sh
+[17.467s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/environment/path.dsv
+[17.468s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.bash
+[17.469s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.sh
+[17.469s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.zsh
+[17.469s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/local_setup.dsv
+[17.470s] -- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/package.dsv
+[17.470s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/ament_index/resource_index/packages/cpp_safety
+[17.470s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/cmake/cpp_safetyConfig.cmake
+[17.470s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/cmake/cpp_safetyConfig-version.cmake
+[17.470s] -- Up-to-date: /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/install/cpp_safety/share/cpp_safety/package.xml
+[17.470s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety

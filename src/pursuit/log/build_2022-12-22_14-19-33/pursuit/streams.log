@@ -1,0 +1,29 @@
+[1.694s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/pursuit': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pursuit build --build-base /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit --record /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/install.log --single-version-externally-managed
+[2.172s] running egg_info
+[2.173s] writing build/pursuit/pursuit.egg-info/PKG-INFO
+[2.173s] writing dependency_links to build/pursuit/pursuit.egg-info/dependency_links.txt
+[2.174s] writing entry points to build/pursuit/pursuit.egg-info/entry_points.txt
+[2.174s] writing requirements to build/pursuit/pursuit.egg-info/requires.txt
+[2.174s] writing top-level names to build/pursuit/pursuit.egg-info/top_level.txt
+[2.251s] reading manifest file 'build/pursuit/pursuit.egg-info/SOURCES.txt'
+[2.253s] writing manifest file 'build/pursuit/pursuit.egg-info/SOURCES.txt'
+[2.253s] running build
+[2.253s] running build_py
+[2.253s] copying pursuit/pure_pursuit.py -> /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/build/lib/pursuit
+[2.253s] running install
+[2.256s] running install_lib
+[2.258s] copying /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/build/lib/pursuit/pure_pursuit.py -> /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit
+[2.260s] byte-compiling /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit/pure_pursuit.py to pure_pursuit.cpython-38.pyc
+[2.262s]   File "/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit/pure_pursuit.py", line 110
+[2.263s]     pos = (pos + 1) % len(self.waypoints)
+[2.263s]     ^
+[2.263s] SyntaxError: invalid syntax
+[2.263s] 
+[2.263s] running install_data
+[2.263s] running install_egg_info
+[2.266s] removing '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit-0.0.0-py3.8.egg-info' (and everything under it)
+[2.266s] Copying build/pursuit/pursuit.egg-info to /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit-0.0.0-py3.8.egg-info
+[2.268s] running install_scripts
+[2.304s] Installing pure_pursuit script to /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/pursuit
+[2.305s] writing list of installed files to '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/install.log'
+[2.358s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/pursuit' returned '0': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pursuit build --build-base /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit --record /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/install.log --single-version-externally-managed

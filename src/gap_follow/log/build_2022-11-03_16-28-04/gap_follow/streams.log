@@ -1,0 +1,24 @@
+[1.249s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/gap_follow': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base build/gap_follow build --build-base /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow --record /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/install.log --single-version-externally-managed
+[1.640s] running egg_info
+[1.640s] writing build/gap_follow/gap_follow.egg-info/PKG-INFO
+[1.641s] writing dependency_links to build/gap_follow/gap_follow.egg-info/dependency_links.txt
+[1.641s] writing entry points to build/gap_follow/gap_follow.egg-info/entry_points.txt
+[1.642s] writing requirements to build/gap_follow/gap_follow.egg-info/requires.txt
+[1.642s] writing top-level names to build/gap_follow/gap_follow.egg-info/top_level.txt
+[1.721s] reading manifest file 'build/gap_follow/gap_follow.egg-info/SOURCES.txt'
+[1.723s] writing manifest file 'build/gap_follow/gap_follow.egg-info/SOURCES.txt'
+[1.724s] running build
+[1.724s] running build_py
+[1.724s] copying gap_follow/reactive_gap_follow.py -> /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/build/lib/gap_follow
+[1.725s] running install
+[1.726s] running install_lib
+[1.728s] copying /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/build/lib/gap_follow/reactive_gap_follow.py -> /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow
+[1.730s] byte-compiling /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow/reactive_gap_follow.py to reactive_gap_follow.cpython-38.pyc
+[1.734s] running install_data
+[1.735s] running install_egg_info
+[1.738s] removing '/home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow-0.0.0-py3.8.egg-info' (and everything under it)
+[1.738s] Copying build/gap_follow/gap_follow.egg-info to /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow-0.0.0-py3.8.egg-info
+[1.740s] running install_scripts
+[1.776s] Installing reactive_gap_follow script to /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/gap_follow
+[1.777s] writing list of installed files to '/home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/install.log'
+[1.829s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/gap_follow' returned '0': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base build/gap_follow build --build-base /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow --record /home/jjaffe27/dev_f1tenth_ws/src/gap_follow/build/gap_follow/install.log --single-version-externally-managed

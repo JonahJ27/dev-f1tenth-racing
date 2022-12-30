@@ -1,0 +1,12 @@
+[0.048s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety -- -j4 -l4
+[0.126s] [35m[1mScanning dependencies of target safety[0m
+[0.192s] [ 50%] [32mBuilding CXX object CMakeFiles/safety.dir/src/aeb.cpp.o[0m
+[2.852s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:[m[K In member function ‘[01m[Kvoid LaserScanAEB::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[2.852s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:46:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[2.853s]    46 |       for (long unsigned int i = 1; i < [01;31m[K;[m[K i++) {
+[2.853s]       |                                         [01;31m[K^[m[K
+[2.853s] 
+[6.794s] make[2]: *** [CMakeFiles/safety.dir/build.make:63: CMakeFiles/safety.dir/src/aeb.cpp.o] Error 1
+[6.795s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/safety.dir/all] Error 2
+[6.795s] make: *** [Makefile:141: all] Error 2
+[6.797s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/build/cpp_safety -- -j4 -l4

@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow -DCMAKE_INSTALL_PREFIX=/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow
+[0.043s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.314s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.365s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.594s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.596s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.796s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.953s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.085s] -- Configuring done
+[1.097s] -- Generating done
+[1.099s] -- Build files have been written to: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow
+[1.108s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow -DCMAKE_INSTALL_PREFIX=/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow
+[1.114s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow -- -j4 -l4
+[1.172s] [35m[1mScanning dependencies of target rgf[0m
+[1.343s] [ 50%] [32mBuilding CXX object CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o[0m
+[1.555s] [01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:12:10:[m[K [01;31m[Kfatal error: [m[Knumbers: No such file or directory
+[1.556s]    12 | #include [01;31m[K<numbers>[m[K
+[1.556s]       |          [01;31m[K^~~~~~~~~[m[K
+[1.556s] compilation terminated.
+[1.559s] make[2]: *** [CMakeFiles/rgf.dir/build.make:63: CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o] Error 1
+[1.559s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgf.dir/all] Error 2
+[1.559s] make: *** [Makefile:141: all] Error 2
+[1.563s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow -- -j4 -l4

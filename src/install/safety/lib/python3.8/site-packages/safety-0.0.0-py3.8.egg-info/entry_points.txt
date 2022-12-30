@@ -1,0 +1,3 @@
+[console_scripts]
+aeb = safety.aeb:main
+

@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target rgf[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rgf[0m
+[100%] Built target rgf
+-- Install configuration: ""
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/lib/cpp_gap_follow/rgf
+-- Set runtime path of "/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/lib/cpp_gap_follow/rgf" to ""
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/ament_index/resource_index/package_run_dependencies/cpp_gap_follow
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/ament_index/resource_index/parent_prefix_path/cpp_gap_follow
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/ament_prefix_path.sh
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/ament_prefix_path.dsv
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/path.sh
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/path.dsv
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.bash
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.sh
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.zsh
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.dsv
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/package.dsv
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/ament_index/resource_index/packages/cpp_gap_follow
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/cmake/cpp_gap_followConfig.cmake
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/cmake/cpp_gap_followConfig-version.cmake
+-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/package.xml

@@ -1,0 +1,5 @@
+  File "/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit/pure_pursuit.py", line 130
+    return [(-b + sqrt_val) / 2a, (-b - sqrt_val) / 2a]
+                               ^
+SyntaxError: invalid syntax
+

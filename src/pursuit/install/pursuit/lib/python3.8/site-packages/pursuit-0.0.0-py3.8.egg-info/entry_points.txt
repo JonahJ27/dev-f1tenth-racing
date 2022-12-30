@@ -1,0 +1,4 @@
+[console_scripts]
+mod_pursuit = pursuit.mod_pursuit:main
+pure_pursuit = pursuit.pure_pursuit:main
+

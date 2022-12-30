@@ -1,0 +1,37 @@
+[2.063s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/safety': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/install/safety/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/safety build --build-base /home/jjaffe27/dev_f1tenth_ws/src/build/safety/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/install/safety --record /home/jjaffe27/dev_f1tenth_ws/src/build/safety/install.log --single-version-externally-managed
+[2.592s] running egg_info
+[2.593s] creating ../build/safety/safety.egg-info
+[2.593s] writing ../build/safety/safety.egg-info/PKG-INFO
+[2.594s] writing dependency_links to ../build/safety/safety.egg-info/dependency_links.txt
+[2.594s] writing entry points to ../build/safety/safety.egg-info/entry_points.txt
+[2.594s] writing requirements to ../build/safety/safety.egg-info/requires.txt
+[2.594s] writing top-level names to ../build/safety/safety.egg-info/top_level.txt
+[2.597s] writing manifest file '../build/safety/safety.egg-info/SOURCES.txt'
+[2.676s] reading manifest file '../build/safety/safety.egg-info/SOURCES.txt'
+[2.677s] writing manifest file '../build/safety/safety.egg-info/SOURCES.txt'
+[2.679s] running build
+[2.680s] running build_py
+[2.680s] creating /home/jjaffe27/dev_f1tenth_ws/src/build/safety/build
+[2.680s] creating /home/jjaffe27/dev_f1tenth_ws/src/build/safety/build/lib
+[2.680s] creating /home/jjaffe27/dev_f1tenth_ws/src/build/safety/build/lib/safety
+[2.680s] copying safety/aeb.py -> /home/jjaffe27/dev_f1tenth_ws/src/build/safety/build/lib/safety
+[2.680s] copying safety/__init__.py -> /home/jjaffe27/dev_f1tenth_ws/src/build/safety/build/lib/safety
+[2.681s] running install
+[2.681s] running install_lib
+[2.685s] creating /home/jjaffe27/dev_f1tenth_ws/src/install/safety/lib/python3.8/site-packages/safety
+[2.685s] copying /home/jjaffe27/dev_f1tenth_ws/src/build/safety/build/lib/safety/aeb.py -> /home/jjaffe27/dev_f1tenth_ws/src/install/safety/lib/python3.8/site-packages/safety
+[2.685s] copying /home/jjaffe27/dev_f1tenth_ws/src/build/safety/build/lib/safety/__init__.py -> /home/jjaffe27/dev_f1tenth_ws/src/install/safety/lib/python3.8/site-packages/safety
+[2.685s] byte-compiling /home/jjaffe27/dev_f1tenth_ws/src/install/safety/lib/python3.8/site-packages/safety/aeb.py to aeb.cpython-38.pyc
+[2.688s] byte-compiling /home/jjaffe27/dev_f1tenth_ws/src/install/safety/lib/python3.8/site-packages/safety/__init__.py to __init__.cpython-38.pyc
+[2.689s] running install_data
+[2.690s] creating /home/jjaffe27/dev_f1tenth_ws/src/install/safety/share/ament_index
+[2.690s] creating /home/jjaffe27/dev_f1tenth_ws/src/install/safety/share/ament_index/resource_index
+[2.690s] creating /home/jjaffe27/dev_f1tenth_ws/src/install/safety/share/ament_index/resource_index/packages
+[2.691s] copying resource/safety -> /home/jjaffe27/dev_f1tenth_ws/src/install/safety/share/ament_index/resource_index/packages
+[2.691s] copying package.xml -> /home/jjaffe27/dev_f1tenth_ws/src/install/safety/share/safety
+[2.691s] running install_egg_info
+[2.694s] Copying ../build/safety/safety.egg-info to /home/jjaffe27/dev_f1tenth_ws/src/install/safety/lib/python3.8/site-packages/safety-0.0.0-py3.8.egg-info
+[2.696s] running install_scripts
+[2.740s] Installing aeb script to /home/jjaffe27/dev_f1tenth_ws/src/install/safety/lib/safety
+[2.741s] writing list of installed files to '/home/jjaffe27/dev_f1tenth_ws/src/build/safety/install.log'
+[2.846s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/safety' returned '0': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/install/safety/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/safety build --build-base /home/jjaffe27/dev_f1tenth_ws/src/build/safety/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/install/safety --record /home/jjaffe27/dev_f1tenth_ws/src/build/safety/install.log --single-version-externally-managed

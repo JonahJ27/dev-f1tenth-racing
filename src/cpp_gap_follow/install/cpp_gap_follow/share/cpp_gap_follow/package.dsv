@@ -1,0 +1,8 @@
+source;share/cpp_gap_follow/hook/cmake_prefix_path.ps1
+source;share/cpp_gap_follow/hook/cmake_prefix_path.dsv
+source;share/cpp_gap_follow/hook/cmake_prefix_path.sh
+source;share/cpp_gap_follow/local_setup.bash
+source;share/cpp_gap_follow/local_setup.dsv
+source;share/cpp_gap_follow/local_setup.ps1
+source;share/cpp_gap_follow/local_setup.sh
+source;share/cpp_gap_follow/local_setup.zsh

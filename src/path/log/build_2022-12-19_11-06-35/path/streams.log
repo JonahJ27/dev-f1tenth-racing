@@ -1,0 +1,21 @@
+[1.361s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/path': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/path build --build-base /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/path/install/path --record /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/install.log --single-version-externally-managed
+[1.799s] running egg_info
+[1.800s] writing build/path/path.egg-info/PKG-INFO
+[1.800s] writing dependency_links to build/path/path.egg-info/dependency_links.txt
+[1.800s] writing entry points to build/path/path.egg-info/entry_points.txt
+[1.801s] writing requirements to build/path/path.egg-info/requires.txt
+[1.801s] writing top-level names to build/path/path.egg-info/top_level.txt
+[1.868s] reading manifest file 'build/path/path.egg-info/SOURCES.txt'
+[1.870s] writing manifest file 'build/path/path.egg-info/SOURCES.txt'
+[1.870s] running build
+[1.870s] running build_py
+[1.870s] running install
+[1.872s] running install_lib
+[1.875s] running install_data
+[1.876s] running install_egg_info
+[1.879s] removing '/home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path-0.0.0-py3.8.egg-info' (and everything under it)
+[1.880s] Copying build/path/path.egg-info to /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path-0.0.0-py3.8.egg-info
+[1.881s] running install_scripts
+[1.912s] Installing waypoints script to /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/path
+[1.913s] writing list of installed files to '/home/jjaffe27/dev_f1tenth_ws/src/path/build/path/install.log'
+[1.969s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/path' returned '0': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/path build --build-base /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/path/install/path --record /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/install.log --single-version-externally-managed

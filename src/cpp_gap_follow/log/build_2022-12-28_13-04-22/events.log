@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.001237] (cpp_gap_follow) JobQueued: {'identifier': 'cpp_gap_follow', 'dependencies': OrderedDict()}
+[0.001305] (cpp_gap_follow) JobStarted: {'identifier': 'cpp_gap_follow'}
+[0.021578] (cpp_gap_follow) JobProgress: {'identifier': 'cpp_gap_follow', 'progress': 'cmake'}
+[0.022111] (cpp_gap_follow) Command: {'cmd': ['/usr/bin/cmake', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow', '-DCMAKE_INSTALL_PREFIX=/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow'], 'cwd': '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jjaffe27'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jjaffe27'), ('OLDPWD', '/home/jjaffe27/dev_f1tenth_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1585'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2217'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jjaffe27'), ('JOURNAL_STREAM', '8:45577'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jjaffe27'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jjaffe27-XPS-13-9350:@/tmp/.ICE-unix/1799,unix/jjaffe27-XPS-13-9350:/tmp/.ICE-unix/1799'), ('INVOCATION_ID', 'dca1f79ae49f4241b93f4c224ad23122'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4f725b92-71f7-4d46-a8d7-3613ec615ef9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100094] (-) TimerEvent: {}
+[0.202338] (-) TimerEvent: {}
+[0.303380] (-) TimerEvent: {}
+[0.359632] (cpp_gap_follow) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.403548] (-) TimerEvent: {}
+[0.504469] (-) TimerEvent: {}
+[0.605096] (-) TimerEvent: {}
+[0.612440] (cpp_gap_follow) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.623802] (cpp_gap_follow) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.705238] (-) TimerEvent: {}
+[0.726111] (cpp_gap_follow) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.727972] (cpp_gap_follow) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.805376] (-) TimerEvent: {}
+[0.826923] (cpp_gap_follow) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.842004] (cpp_gap_follow) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.842659] (cpp_gap_follow) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.846907] (cpp_gap_follow) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.905529] (-) TimerEvent: {}
+[0.961045] (cpp_gap_follow) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.962577] (cpp_gap_follow) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.005616] (-) TimerEvent: {}
+[1.075355] (cpp_gap_follow) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.090243] (cpp_gap_follow) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.091019] (cpp_gap_follow) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.099999] (cpp_gap_follow) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.105706] (-) TimerEvent: {}
+[1.138308] (cpp_gap_follow) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.138606] (cpp_gap_follow) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.205811] (-) TimerEvent: {}
+[1.306187] (-) TimerEvent: {}
+[1.406529] (-) TimerEvent: {}
+[1.420348] (cpp_gap_follow) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.499406] (cpp_gap_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.506630] (-) TimerEvent: {}
+[1.511404] (cpp_gap_follow) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.606808] (-) TimerEvent: {}
+[1.687473] (cpp_gap_follow) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.706909] (-) TimerEvent: {}
+[1.726984] (cpp_gap_follow) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.807055] (-) TimerEvent: {}
+[1.842693] (cpp_gap_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.907204] (-) TimerEvent: {}
+[1.931148] (cpp_gap_follow) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.935107] (cpp_gap_follow) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.937913] (cpp_gap_follow) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.007347] (-) TimerEvent: {}
+[2.049710] (cpp_gap_follow) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.050094] (cpp_gap_follow) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.107483] (-) TimerEvent: {}
+[2.156891] (cpp_gap_follow) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.157220] (cpp_gap_follow) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.207608] (-) TimerEvent: {}
+[2.240803] (cpp_gap_follow) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.241065] (cpp_gap_follow) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.307719] (-) TimerEvent: {}
+[2.342417] (cpp_gap_follow) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.344090] (cpp_gap_follow) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.407842] (-) TimerEvent: {}
+[2.508217] (-) TimerEvent: {}
+[2.569620] (cpp_gap_follow) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.608352] (-) TimerEvent: {}
+[2.708682] (-) TimerEvent: {}
+[2.748036] (cpp_gap_follow) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[2.801764] (cpp_gap_follow) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[2.802030] (cpp_gap_follow) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'nav_msgs' was not\n"}
+[2.802172] (cpp_gap_follow) StderrLine: {'line': b'  found before\n'}
+[2.802306] (cpp_gap_follow) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.802435] (cpp_gap_follow) StderrLine: {'line': b'  CMakeLists.txt:18 (ament_target_dependencies)\n'}
+[2.802565] (cpp_gap_follow) StderrLine: {'line': b'\n'}
+[2.802693] (cpp_gap_follow) StderrLine: {'line': b'\n'}
+[2.804806] (cpp_gap_follow) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.805066] (cpp_gap_follow) StdoutLine: {'line': b'See also "/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow/CMakeFiles/CMakeOutput.log".\n'}
+[2.805228] (cpp_gap_follow) StdoutLine: {'line': b'See also "/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow/CMakeFiles/CMakeError.log".\n'}
+[2.808800] (-) TimerEvent: {}
+[2.816143] (cpp_gap_follow) CommandEnded: {'returncode': 1}
+[2.862353] (cpp_gap_follow) JobEnded: {'identifier': 'cpp_gap_follow', 'rc': 1}
+[2.873269] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:[m[K In member function ‘[01m[Kstd::pair<int, int> ReactiveGapFollow::find_max_gap(double*, int)[m[K’:
+[01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:80:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   80 |         for (int i = 0; [01;35m[Ki < start_gaps.size()[m[K; i++) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:[m[K In member function ‘[01m[Kint ReactiveGapFollow::find_best_point(double, double, double*)[m[K’:
+[01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:124:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kranges[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  124 |     int find_best_point(double start_i, double end_i, [01;35m[Kdouble* ranges[m[K) {
+      |                                                       [01;35m[K~~~~~~~~^~~~~~[m[K

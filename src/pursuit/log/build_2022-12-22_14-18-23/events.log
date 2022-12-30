@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.001327] (pursuit) JobQueued: {'identifier': 'pursuit', 'dependencies': OrderedDict()}
+[0.001841] (pursuit) JobStarted: {'identifier': 'pursuit'}
+[0.099628] (-) TimerEvent: {}
+[0.200238] (-) TimerEvent: {}
+[0.300656] (-) TimerEvent: {}
+[0.404805] (-) TimerEvent: {}
+[0.506971] (-) TimerEvent: {}
+[0.611854] (-) TimerEvent: {}
+[0.712745] (-) TimerEvent: {}
+[0.813408] (-) TimerEvent: {}
+[0.913780] (-) TimerEvent: {}
+[1.014128] (-) TimerEvent: {}
+[1.114488] (-) TimerEvent: {}
+[1.215070] (-) TimerEvent: {}
+[1.315650] (-) TimerEvent: {}
+[1.416079] (-) TimerEvent: {}
+[1.477496] (pursuit) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/pursuit', 'build', '--build-base', '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/build', 'install', '--prefix', '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit', '--record', '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/install.log', '--single-version-externally-managed'], 'cwd': '/home/jjaffe27/dev_f1tenth_ws/src/pursuit', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jjaffe27', 'SSH_AGENT_PID': '1770', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jjaffe27', 'OLDPWD': '/home/jjaffe27/dev_f1tenth_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1411', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '33278', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install:/home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install:/home/jjaffe27/dev_f1tenth_ws/src/path/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jjaffe27', 'JOURNAL_STREAM': '8:46146', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jjaffe27', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jjaffe27-XPS-13-9350:@/tmp/.ICE-unix/1811,unix/jjaffe27-XPS-13-9350:/tmp/.ICE-unix/1811', 'INVOCATION_ID': '531175f25b7b464a87f42a85895005c3', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit:/home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow:/home/jjaffe27/dev_f1tenth_ws/src/path/install/path:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:a42b5ee6-3b94-402b-b530-8d08472da5fd', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages:/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages:/home/jjaffe27/dev_f1tenth_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages:/home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.516209] (-) TimerEvent: {}
+[1.616685] (-) TimerEvent: {}
+[1.717029] (-) TimerEvent: {}
+[1.817409] (-) TimerEvent: {}
+[1.917803] (-) TimerEvent: {}
+[1.964967] (pursuit) StdoutLine: {'line': b'running egg_info\n'}
+[1.966096] (pursuit) StdoutLine: {'line': b'writing build/pursuit/pursuit.egg-info/PKG-INFO\n'}
+[1.966647] (pursuit) StdoutLine: {'line': b'writing dependency_links to build/pursuit/pursuit.egg-info/dependency_links.txt\n'}
+[1.967385] (pursuit) StdoutLine: {'line': b'writing entry points to build/pursuit/pursuit.egg-info/entry_points.txt\n'}
+[1.967734] (pursuit) StdoutLine: {'line': b'writing requirements to build/pursuit/pursuit.egg-info/requires.txt\n'}
+[1.968015] (pursuit) StdoutLine: {'line': b'writing top-level names to build/pursuit/pursuit.egg-info/top_level.txt\n'}
+[2.017891] (-) TimerEvent: {}
+[2.039120] (pursuit) StdoutLine: {'line': b"reading manifest file 'build/pursuit/pursuit.egg-info/SOURCES.txt'\n"}
+[2.040607] (pursuit) StdoutLine: {'line': b"writing manifest file 'build/pursuit/pursuit.egg-info/SOURCES.txt'\n"}
+[2.041097] (pursuit) StdoutLine: {'line': b'running build\n'}
+[2.041357] (pursuit) StdoutLine: {'line': b'running build_py\n'}
+[2.041691] (pursuit) StdoutLine: {'line': b'copying pursuit/pure_pursuit.py -> /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/build/lib/pursuit\n'}
+[2.042006] (pursuit) StdoutLine: {'line': b'running install\n'}
+[2.044138] (pursuit) StdoutLine: {'line': b'running install_lib\n'}
+[2.045902] (pursuit) StdoutLine: {'line': b'copying /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/build/lib/pursuit/pure_pursuit.py -> /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit\n'}
+[2.046793] (pursuit) StdoutLine: {'line': b'byte-compiling /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit/pure_pursuit.py to pure_pursuit.cpython-38.pyc\n'}
+[2.049764] (pursuit) StderrLine: {'line': b'  File "/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit/pure_pursuit.py", line 110\n'}
+[2.050056] (pursuit) StderrLine: {'line': b'    pos = (pos + 1) % len(self.waypoints)\n'}
+[2.050221] (pursuit) StderrLine: {'line': b'    ^\n'}
+[2.050363] (pursuit) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[2.050512] (pursuit) StderrLine: {'line': b'\n'}
+[2.050666] (pursuit) StdoutLine: {'line': b'running install_data\n'}
+[2.050885] (pursuit) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.053597] (pursuit) StdoutLine: {'line': b"removing '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.054117] (pursuit) StdoutLine: {'line': b'Copying build/pursuit/pursuit.egg-info to /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit-0.0.0-py3.8.egg-info\n'}
+[2.055873] (pursuit) StdoutLine: {'line': b'running install_scripts\n'}
+[2.091187] (pursuit) StdoutLine: {'line': b'Installing pure_pursuit script to /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/pursuit\n'}
+[2.091978] (pursuit) StdoutLine: {'line': b"writing list of installed files to '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/install.log'\n"}
+[2.118029] (-) TimerEvent: {}
+[2.145404] (pursuit) CommandEnded: {'returncode': 0}
+[2.180948] (pursuit) JobEnded: {'identifier': 'pursuit', 'rc': 0}
+[2.182247] (-) EventReactorShutdown: {}

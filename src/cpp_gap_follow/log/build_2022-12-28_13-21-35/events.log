@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000569] (cpp_gap_follow) JobQueued: {'identifier': 'cpp_gap_follow', 'dependencies': OrderedDict()}
+[0.000639] (cpp_gap_follow) JobStarted: {'identifier': 'cpp_gap_follow'}
+[0.017323] (cpp_gap_follow) JobProgress: {'identifier': 'cpp_gap_follow', 'progress': 'cmake'}
+[0.018400] (cpp_gap_follow) JobProgress: {'identifier': 'cpp_gap_follow', 'progress': 'build'}
+[0.019444] (cpp_gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow', '--', '-j4', '-l4'], 'cwd': '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jjaffe27'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jjaffe27'), ('OLDPWD', '/home/jjaffe27/dev_f1tenth_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1585'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2217'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jjaffe27'), ('JOURNAL_STREAM', '8:45577'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jjaffe27'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jjaffe27-XPS-13-9350:@/tmp/.ICE-unix/1799,unix/jjaffe27-XPS-13-9350:/tmp/.ICE-unix/1799'), ('INVOCATION_ID', 'dca1f79ae49f4241b93f4c224ad23122'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4f725b92-71f7-4d46-a8d7-3613ec615ef9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.086692] (cpp_gap_follow) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rgf\x1b[0m\n'}
+[0.099442] (-) TimerEvent: {}
+[0.129162] (cpp_gap_follow) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o\x1b[0m\n'}
+[0.199582] (-) TimerEvent: {}
+[0.299928] (-) TimerEvent: {}
+[0.400261] (-) TimerEvent: {}
+[0.500628] (-) TimerEvent: {}
+[0.601018] (-) TimerEvent: {}
+[0.701405] (-) TimerEvent: {}
+[0.801792] (-) TimerEvent: {}
+[0.902187] (-) TimerEvent: {}
+[1.002720] (-) TimerEvent: {}
+[1.103115] (-) TimerEvent: {}
+[1.203499] (-) TimerEvent: {}
+[1.303899] (-) TimerEvent: {}
+[1.404308] (-) TimerEvent: {}
+[1.504697] (-) TimerEvent: {}
+[1.605089] (-) TimerEvent: {}
+[1.705470] (-) TimerEvent: {}
+[1.805851] (-) TimerEvent: {}
+[1.843953] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<int, int> ReactiveGapFollow::find_max_gap(double*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.844388] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:80:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.844556] (cpp_gap_follow) StderrLine: {'line': b'   80 |         for (int i = 0; \x1b[01;35m\x1b[Ki < start_gaps.size()\x1b[m\x1b[K; i++) {\n'}
+[1.844651] (cpp_gap_follow) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.855302] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ReactiveGapFollow::find_best_point(double, double, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.855568] (cpp_gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:124:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kranges\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.855714] (cpp_gap_follow) StderrLine: {'line': b'  124 |     int find_best_point(double start_i, double end_i, \x1b[01;35m\x1b[Kdouble* ranges\x1b[m\x1b[K) {\n'}
+[1.855849] (cpp_gap_follow) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.905983] (-) TimerEvent: {}
+[2.006366] (-) TimerEvent: {}
+[2.106758] (-) TimerEvent: {}
+[2.207147] (-) TimerEvent: {}
+[2.307577] (-) TimerEvent: {}
+[2.407962] (-) TimerEvent: {}
+[2.508378] (-) TimerEvent: {}
+[2.608754] (-) TimerEvent: {}
+[2.709204] (-) TimerEvent: {}
+[2.809631] (-) TimerEvent: {}
+[2.910138] (-) TimerEvent: {}
+[3.010566] (-) TimerEvent: {}
+[3.110900] (-) TimerEvent: {}
+[3.211273] (-) TimerEvent: {}
+[3.311660] (-) TimerEvent: {}
+[3.412242] (-) TimerEvent: {}
+[3.512700] (-) TimerEvent: {}
+[3.613078] (-) TimerEvent: {}
+[3.713456] (-) TimerEvent: {}
+[3.813847] (-) TimerEvent: {}
+[3.914229] (-) TimerEvent: {}
+[4.014619] (-) TimerEvent: {}
+[4.115065] (-) TimerEvent: {}
+[4.215515] (-) TimerEvent: {}
+[4.316019] (-) TimerEvent: {}
+[4.416422] (-) TimerEvent: {}
+[4.516870] (-) TimerEvent: {}
+[4.617249] (-) TimerEvent: {}
+[4.717590] (-) TimerEvent: {}
+[4.817965] (-) TimerEvent: {}
+[4.918341] (-) TimerEvent: {}
+[5.018717] (-) TimerEvent: {}
+[5.119094] (-) TimerEvent: {}
+[5.219475] (-) TimerEvent: {}
+[5.319846] (-) TimerEvent: {}
+[5.420288] (-) TimerEvent: {}
+[5.520708] (-) TimerEvent: {}
+[5.621086] (-) TimerEvent: {}
+[5.721478] (-) TimerEvent: {}
+[5.821847] (-) TimerEvent: {}
+[5.922229] (-) TimerEvent: {}
+[6.022600] (-) TimerEvent: {}
+[6.122968] (-) TimerEvent: {}
+[6.223346] (-) TimerEvent: {}
+[6.323734] (-) TimerEvent: {}
+[6.424137] (-) TimerEvent: {}
+[6.524515] (-) TimerEvent: {}
+[6.624898] (-) TimerEvent: {}
+[6.725277] (-) TimerEvent: {}
+[6.825648] (-) TimerEvent: {}
+[6.926023] (-) TimerEvent: {}
+[7.026395] (-) TimerEvent: {}
+[7.126794] (-) TimerEvent: {}
+[7.148005] (cpp_gap_follow) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rgf\x1b[0m\n'}
+[7.227024] (-) TimerEvent: {}
+[7.327603] (-) TimerEvent: {}
+[7.428158] (-) TimerEvent: {}
+[7.528694] (-) TimerEvent: {}
+[7.629130] (-) TimerEvent: {}
+[7.659238] (cpp_gap_follow) StdoutLine: {'line': b'[100%] Built target rgf\n'}
+[7.675800] (cpp_gap_follow) CommandEnded: {'returncode': 0}
+[7.709001] (cpp_gap_follow) JobProgress: {'identifier': 'cpp_gap_follow', 'progress': 'install'}
+[7.725258] (cpp_gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow'], 'cwd': '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jjaffe27'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jjaffe27'), ('OLDPWD', '/home/jjaffe27/dev_f1tenth_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1585'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2217'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jjaffe27'), ('JOURNAL_STREAM', '8:45577'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jjaffe27'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jjaffe27-XPS-13-9350:@/tmp/.ICE-unix/1799,unix/jjaffe27-XPS-13-9350:/tmp/.ICE-unix/1799'), ('INVOCATION_ID', 'dca1f79ae49f4241b93f4c224ad23122'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4f725b92-71f7-4d46-a8d7-3613ec615ef9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.729507] (-) TimerEvent: {}
+[7.740212] (cpp_gap_follow) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.740613] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/lib/cpp_gap_follow/rgf\n'}
+[7.744376] (cpp_gap_follow) StdoutLine: {'line': b'-- Set runtime path of "/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/lib/cpp_gap_follow/rgf" to ""\n'}
+[7.744641] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/ament_index/resource_index/package_run_dependencies/cpp_gap_follow\n'}
+[7.744895] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/ament_index/resource_index/parent_prefix_path/cpp_gap_follow\n'}
+[7.745165] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/ament_prefix_path.sh\n'}
+[7.745361] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/ament_prefix_path.dsv\n'}
+[7.745598] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/path.sh\n'}
+[7.745793] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/environment/path.dsv\n'}
+[7.745964] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.bash\n'}
+[7.746162] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.sh\n'}
+[7.746362] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.zsh\n'}
+[7.746580] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/local_setup.dsv\n'}
+[7.747088] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/package.dsv\n'}
+[7.747398] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/ament_index/resource_index/packages/cpp_gap_follow\n'}
+[7.747668] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/cmake/cpp_gap_followConfig.cmake\n'}
+[7.747920] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/cmake/cpp_gap_followConfig-version.cmake\n'}
+[7.748281] (cpp_gap_follow) StdoutLine: {'line': b'-- Installing: /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow/share/cpp_gap_follow/package.xml\n'}
+[7.750997] (cpp_gap_follow) CommandEnded: {'returncode': 0}
+[7.824167] (cpp_gap_follow) JobEnded: {'identifier': 'cpp_gap_follow', 'rc': 0}
+[7.825402] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[1.405s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/path': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/path build --build-base /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/path/install/path --record /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/install.log --single-version-externally-managed
+[1.883s] running egg_info
+[1.884s] writing build/path/path.egg-info/PKG-INFO
+[1.884s] writing dependency_links to build/path/path.egg-info/dependency_links.txt
+[1.884s] writing entry points to build/path/path.egg-info/entry_points.txt
+[1.885s] writing requirements to build/path/path.egg-info/requires.txt
+[1.885s] writing top-level names to build/path/path.egg-info/top_level.txt
+[1.952s] reading manifest file 'build/path/path.egg-info/SOURCES.txt'
+[1.954s] writing manifest file 'build/path/path.egg-info/SOURCES.txt'
+[1.954s] running build
+[1.954s] running build_py
+[1.954s] copying path/waypoints.py -> /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build/lib/path
+[1.955s] running install
+[1.956s] running install_lib
+[1.958s] copying /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build/lib/path/waypoints.py -> /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path
+[1.959s] byte-compiling /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path/waypoints.py to waypoints.cpython-38.pyc
+[1.962s] running install_data
+[1.963s] running install_egg_info
+[1.966s] removing '/home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path-0.0.0-py3.8.egg-info' (and everything under it)
+[1.967s] Copying build/path/path.egg-info to /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path-0.0.0-py3.8.egg-info
+[1.968s] running install_scripts
+[2.004s] Installing waypoints script to /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/path
+[2.005s] writing list of installed files to '/home/jjaffe27/dev_f1tenth_ws/src/path/build/path/install.log'
+[2.060s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/path' returned '0': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/path build --build-base /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/path/install/path --record /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/install.log --single-version-externally-managed

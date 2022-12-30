@@ -1,0 +1,21 @@
+[2.498s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/pursuit': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pursuit build --build-base /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit --record /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/install.log --single-version-externally-managed
+[3.612s] running egg_info
+[3.615s] writing build/pursuit/pursuit.egg-info/PKG-INFO
+[3.616s] writing dependency_links to build/pursuit/pursuit.egg-info/dependency_links.txt
+[3.616s] writing entry points to build/pursuit/pursuit.egg-info/entry_points.txt
+[3.617s] writing requirements to build/pursuit/pursuit.egg-info/requires.txt
+[3.617s] writing top-level names to build/pursuit/pursuit.egg-info/top_level.txt
+[3.729s] reading manifest file 'build/pursuit/pursuit.egg-info/SOURCES.txt'
+[3.732s] writing manifest file 'build/pursuit/pursuit.egg-info/SOURCES.txt'
+[3.733s] running build
+[3.734s] running build_py
+[3.735s] running install
+[3.738s] running install_lib
+[3.741s] running install_data
+[3.743s] running install_egg_info
+[3.747s] removing '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit-0.0.0-py3.8.egg-info' (and everything under it)
+[3.760s] Copying build/pursuit/pursuit.egg-info to /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit-0.0.0-py3.8.egg-info
+[3.763s] running install_scripts
+[3.813s] Installing pure_pursuit script to /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/pursuit
+[3.814s] writing list of installed files to '/home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/install.log'
+[3.887s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/pursuit' returned '0': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pursuit build --build-base /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit --record /home/jjaffe27/dev_f1tenth_ws/src/pursuit/build/pursuit/install.log --single-version-externally-managed

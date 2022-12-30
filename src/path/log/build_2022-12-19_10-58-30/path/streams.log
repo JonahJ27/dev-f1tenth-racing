@@ -1,0 +1,42 @@
+[1.439s] Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/path': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/path build --build-base /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/path/install/path --record /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/install.log --single-version-externally-managed
+[1.888s] running egg_info
+[1.889s] creating build/path/path.egg-info
+[1.890s] writing build/path/path.egg-info/PKG-INFO
+[1.890s] writing dependency_links to build/path/path.egg-info/dependency_links.txt
+[1.890s] writing entry points to build/path/path.egg-info/entry_points.txt
+[1.891s] writing requirements to build/path/path.egg-info/requires.txt
+[1.891s] writing top-level names to build/path/path.egg-info/top_level.txt
+[1.897s] writing manifest file 'build/path/path.egg-info/SOURCES.txt'
+[1.979s] reading manifest file 'build/path/path.egg-info/SOURCES.txt'
+[1.981s] writing manifest file 'build/path/path.egg-info/SOURCES.txt'
+[1.981s] running build
+[1.981s] running build_py
+[1.982s] creating /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build
+[1.982s] creating /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build/lib
+[1.982s] creating /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build/lib/path
+[1.982s] copying path/__init__.py -> /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build/lib/path
+[1.982s] copying path/waypoints.py -> /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build/lib/path
+[1.982s] running install
+[1.984s] running install_lib
+[1.986s] creating /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path
+[1.986s] copying /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build/lib/path/__init__.py -> /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path
+[1.986s] copying /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build/lib/path/waypoints.py -> /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path
+[1.987s] byte-compiling /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path/__init__.py to __init__.cpython-38.pyc
+[1.991s]   File "/home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path/waypoints.py", line 26
+[1.992s]     print data.twist.twist.linear.x
+[1.992s]           ^
+[1.992s] SyntaxError: Missing parentheses in call to 'print'. Did you mean print(data.twist.twist.linear.x)?
+[1.992s] 
+[1.992s] byte-compiling /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path/waypoints.py to waypoints.cpython-38.pyc
+[1.993s] running install_data
+[1.993s] creating /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/share/ament_index
+[1.993s] creating /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/share/ament_index/resource_index
+[1.993s] creating /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/share/ament_index/resource_index/packages
+[1.993s] copying resource/path -> /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/share/ament_index/resource_index/packages
+[1.994s] copying package.xml -> /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/share/path
+[1.994s] running install_egg_info
+[1.997s] Copying build/path/path.egg-info to /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages/path-0.0.0-py3.8.egg-info
+[2.002s] running install_scripts
+[2.031s] Installing waypoints script to /home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/path
+[2.032s] writing list of installed files to '/home/jjaffe27/dev_f1tenth_ws/src/path/build/path/install.log'
+[2.083s] Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/path' returned '0': PYTHONPATH=/home/jjaffe27/dev_f1tenth_ws/src/path/install/path/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/path build --build-base /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/build install --prefix /home/jjaffe27/dev_f1tenth_ws/src/path/install/path --record /home/jjaffe27/dev_f1tenth_ws/src/path/build/path/install.log --single-version-externally-managed

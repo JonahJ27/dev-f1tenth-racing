@@ -1,0 +1,7 @@
+[01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/src/reactive_gap_follow.cpp:12:10:[m[K [01;31m[Kfatal error: [m[Knumbers: No such file or directory
+   12 | #include [01;31m[K<numbers>[m[K
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/rgf.dir/build.make:63: CMakeFiles/rgf.dir/src/reactive_gap_follow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgf.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,5 @@
+  File "/home/jjaffe27/dev_f1tenth_ws/src/pursuit/install/pursuit/lib/python3.8/site-packages/pursuit/pure_pursuit.py", line 110
+    pos = (pos + 1) % len(self.waypoints)
+    ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,2 @@
+Invoking command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow -DCMAKE_INSTALL_PREFIX=/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow
+Invoked command in '/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/build/cpp_gap_follow' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow -DCMAKE_INSTALL_PREFIX=/home/jjaffe27/dev_f1tenth_ws/src/cpp_gap_follow/install/cpp_gap_follow

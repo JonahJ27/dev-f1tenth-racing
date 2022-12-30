@@ -1,0 +1,5 @@
+[01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:[m[K In member function ‘[01m[Kvoid LaserScanAEB::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/jjaffe27/dev_f1tenth_ws/src/cpp_safety/src/aeb.cpp:46:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   46 | for (long unsigned int i = 1; [01;35m[Ki < lasers[m[K; i++) {
+      |                               [01;35m[K~~^~~~~~~~[m[K
+
