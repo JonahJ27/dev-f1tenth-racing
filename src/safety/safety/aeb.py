@@ -31,7 +31,7 @@ class LaserScanAEB(Node):
 
     def laser_callback(self, msg):
         distances = msg.ranges
-        min_ttc = timeToCollision(self.speed, distances[0], msg.angle_min)
+        min_ttc = time_to_collision(self.speed, distances[0], msg.angle_min)
         for i in range(1, len(distances)):
             cur_ttc = time_to_collision(self.speed, distances[i], msg.angle_min + msg.angle_increment * i)
             if cur_ttc <  min_ttc:
@@ -48,8 +48,7 @@ class LaserScanAEB(Node):
     def odom_callback(self, msg):
         vector = msg.twist.twist.linear
         self.speed = np.sqrt(vector.x ** 2 + vector.y ** 2 + vector.z ** 2)
-        print(self.speed) 
-
+        
 # ||  u * v      ||
 # ||--------- * v|| = ||u|| cos(theta)
 # || ||v^2||     ||

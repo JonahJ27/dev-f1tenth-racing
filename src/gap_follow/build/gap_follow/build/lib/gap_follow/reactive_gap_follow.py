@@ -38,7 +38,7 @@ class reactive_follow_gap(Node):
             2.Rejecting high values (eg. > 3m)
         """
         # sets max ranges to global max
-        proc_ranges = list(map(lambda r: min(r, 3), ranges))
+        proc_ranges = list(map(lambda r: min(r, self.max_dist), ranges))
 
         
         # sets a mean of the 5 items on either side and this value to this one
@@ -112,7 +112,7 @@ class reactive_follow_gap(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    rfgs = reactive_follow_gap(10)
+    rfgs = reactive_follow_gap(3)
     rclpy.spin(rfgs)
 
 if __name__ == '__main__':
